@@ -299,7 +299,9 @@ VALUES
 (65, 21, 2, 7, 2, '2025-03-04 11:00:00', '2025-03-08 11:00:00', 60, 150.00, 'reagendada'), -- Extraccion dental
 (66, 21, 1, 8, 1, '2025-01-25 09:00:00', NULL, 45, 80.00, 'realizada'), -- Limpieza dental
 (67, 21, 6, 9, 1, '2024-11-30 10:00:00', NULL, 60, 250.00, 'cancelada'); -- Blanqueamiento dental
---CITAS REALIZADAS PA JUAN patrocinadas por Luchillo
+
+
+--CITAS REALIZADAS PA JUAN patrocinadas por LUXO
 -- Inserts para tabla cita desde cita_id=68 hasta 200... 
 
 INSERT INTO cita (cita_id, cliente_id, tratamiento_id, medico_id, agendador_id, fecha_hora, reagendada, duracion, costo, estado) VALUES
@@ -563,42 +565,224 @@ VALUES
 (51, 65, 'Extraccion dental. Seguimiento y cuidados post-operatorios.', '2025-03-08 11:50:00', '2025-03-08 11:55:00'), -- Cita reagendada
 (52, 66, 'Limpieza dental completa. Se recomienda uso de hilo dental.', '2025-01-25 09:50:00', '2025-01-25 09:55:00');
 
+--INSERTS pa JUAN de parte de LUXO
+INSERT INTO acto_medico (acto_medico_id, cita_id, observaciones, fecha_realizacion, modificado_en) VALUES
+(53, 68, 'Limpieza dental realizada satisfactoriamente.', '2025-03-03 08:00:00', '2025-03-03 08:05:00'),
+(54, 69, 'Extracción dental sin complicaciones.', '2025-03-03 09:00:00', '2025-03-03 09:05:00'),
+(55, 70, 'Tratamiento de endodoncia iniciado.', '2025-03-03 10:00:00', '2025-03-03 10:05:00'),
+(56, 71, 'Evaluación para ortodoncia completada.', '2025-03-03 11:00:00', '2025-03-03 11:05:00'),
+(57, 72, 'Ajuste mensual de ortodoncia aplicado.', '2025-03-03 12:00:00', '2025-03-03 12:05:00'),
+(58, 73, 'Blanqueamiento dental exitoso.', '2025-03-03 13:00:00', '2025-03-03 13:05:00'),
+(59, 74, 'Colocación de implante dental realizada.', '2025-03-03 14:00:00', '2025-03-03 14:05:00'),
+(60, 75, 'Profilaxis en niños realizada con recomendaciones.', '2025-03-03 15:00:00', '2025-03-03 15:05:00'),
+(61, 76, 'Aplicación de sellantes dentales para prevención.', '2025-03-03 16:00:00', '2025-03-03 16:05:00'),
+
+(62, 77, 'Rehabilitación oral en progreso.', '2025-03-04 08:00:00', '2025-03-04 08:05:00'),
+(63, 78, 'Limpieza dental realizada satisfactoriamente.', '2025-03-04 09:00:00', '2025-03-04 09:05:00'),
+(64, 79, 'Extracción dental sin complicaciones.', '2025-03-04 10:00:00', '2025-03-04 10:05:00'),
+(65, 80, 'Tratamiento de endodoncia iniciado.', '2025-03-04 11:00:00', '2025-03-04 11:05:00'),
+(66, 81, 'Evaluación para ortodoncia completada.', '2025-03-04 12:00:00', '2025-03-04 12:05:00'),
+(67, 82, 'Ajuste mensual de ortodoncia aplicado.', '2025-03-04 13:00:00', '2025-03-04 13:05:00'),
+(68, 83, 'Blanqueamiento dental exitoso.', '2025-03-04 14:00:00', '2025-03-04 14:05:00'),
+(69, 84, 'Colocación de implante dental realizada.', '2025-03-04 15:00:00', '2025-03-04 15:05:00'),
+(70, 85, 'Profilaxis en niños realizada con recomendaciones.', '2025-03-04 16:00:00', '2025-03-04 16:05:00'),
+
+(71, 86, 'Aplicación de sellantes dentales para prevención.', '2025-03-05 08:00:00', '2025-03-05 08:05:00'),
+(72, 87, 'Rehabilitación oral en progreso.', '2025-03-05 09:00:00', '2025-03-05 09:05:00'),
+(73, 88, 'Limpieza dental realizada satisfactoriamente.', '2025-03-05 10:00:00', '2025-03-05 10:05:00'),
+(74, 89, 'Extracción dental sin complicaciones.', '2025-03-05 11:00:00', '2025-03-05 11:05:00'),
+(75, 90, 'Tratamiento de endodoncia iniciado.', '2025-03-05 12:00:00', '2025-03-05 12:05:00'),
+(76, 91, 'Evaluación para ortodoncia completada.', '2025-03-05 13:00:00', '2025-03-05 13:05:00'),
+(77, 92, 'Ajuste mensual de ortodoncia aplicado.', '2025-03-05 14:00:00', '2025-03-05 14:05:00'),
+(78, 93, 'Blanqueamiento dental exitoso.', '2025-03-05 15:00:00', '2025-03-05 15:05:00'),
+(79, 94, 'Colocación de implante dental realizada.', '2025-03-05 16:00:00', '2025-03-05 16:05:00'),
+
+(80, 95, 'Profilaxis en niños realizada con recomendaciones.', '2025-03-06 08:00:00', '2025-03-06 08:05:00'),
+(81, 96, 'Aplicación de sellantes dentales para prevención.', '2025-03-06 09:00:00', '2025-03-06 09:05:00'),
+(82, 97, 'Rehabilitación oral en progreso.', '2025-03-06 10:00:00', '2025-03-06 10:05:00'),
+(83, 98, 'Limpieza dental realizada satisfactoriamente.', '2025-03-06 11:00:00', '2025-03-06 11:05:00'),
+(84, 99, 'Extracción dental sin complicaciones.', '2025-03-06 12:00:00', '2025-03-06 12:05:00'),
+(85, 100, 'Tratamiento de endodoncia iniciado.', '2025-03-06 13:00:00', '2025-03-06 13:05:00'),
+(86, 101, 'Evaluación para ortodoncia completada.', '2025-03-06 14:00:00', '2025-03-06 14:05:00'),
+(87, 102, 'Ajuste mensual de ortodoncia aplicado.', '2025-03-06 15:00:00', '2025-03-06 15:05:00'),
+(88, 103, 'Blanqueamiento dental exitoso.', '2025-03-06 16:00:00', '2025-03-06 16:05:00'),
+
+(89, 104, 'Colocación de implante dental realizada.', '2025-03-10 08:00:00', '2025-03-10 08:05:00'),
+(90, 105, 'Profilaxis en niños realizada con recomendaciones.', '2025-03-10 09:00:00', '2025-03-10 09:05:00'),
+(91, 106, 'Aplicación de sellantes dentales para prevención.', '2025-03-10 10:00:00', '2025-03-10 10:05:00'),
+(92, 107, 'Rehabilitación oral en progreso.', '2025-03-10 11:00:00', '2025-03-10 11:05:00'),
+(93, 108, 'Limpieza dental realizada satisfactoriamente.', '2025-03-10 12:00:00', '2025-03-10 12:05:00'),
+(94, 109, 'Extracción dental sin complicaciones.', '2025-03-10 13:00:00', '2025-03-10 13:05:00'),
+(95, 110, 'Tratamiento de endodoncia iniciado.', '2025-03-10 14:00:00', '2025-03-10 14:05:00'),
+(96, 111, 'Evaluación para ortodoncia completada.', '2025-03-10 15:00:00', '2025-03-10 15:05:00'),
+(97, 112, 'Ajuste mensual de ortodoncia aplicado.', '2025-03-10 16:00:00', '2025-03-10 16:05:00'),
+(98, 113, 'Blanqueamiento dental exitoso.', '2025-03-11 08:00:00', '2025-03-11 08:05:00'),
+(99, 114, 'Colocación de implante dental realizada.', '2025-03-11 09:00:00', '2025-03-11 09:05:00'),
+(100, 115, 'Profilaxis en niños realizada con recomendaciones.', '2025-03-11 10:00:00', '2025-03-11 10:05:00'),
+(101, 116, 'Aplicación de sellantes dentales para prevención.', '2025-03-11 11:00:00', '2025-03-11 11:05:00'),
+(102, 117, 'Rehabilitación oral en progreso.', '2025-03-11 12:00:00', '2025-03-11 12:05:00'),
+(103, 118, 'Limpieza dental realizada satisfactoriamente.', '2025-03-11 13:00:00', '2025-03-11 13:05:00'),
+(104, 119, 'Extracción dental sin complicaciones.', '2025-03-11 14:00:00', '2025-03-11 14:05:00'),
+(105, 120, 'Tratamiento de endodoncia iniciado.', '2025-03-11 15:00:00', '2025-03-11 15:05:00'),
+(106, 121, 'Evaluación para ortodoncia completada.', '2025-03-11 16:00:00', '2025-03-11 16:05:00'),
+
+(107, 122, 'Ajuste mensual de ortodoncia aplicado.', '2025-03-12 08:00:00', '2025-03-12 08:05:00'),
+(108, 123, 'Blanqueamiento dental exitoso.', '2025-03-12 09:00:00', '2025-03-12 09:05:00'),
+(109, 124, 'Colocación de implante dental realizada.', '2025-03-12 10:00:00', '2025-03-12 10:05:00'),
+(110, 125, 'Profilaxis en niños realizada con recomendaciones.', '2025-03-12 11:00:00', '2025-03-12 11:05:00'),
+(111, 126, 'Aplicación de sellantes dentales para prevención.', '2025-03-12 12:00:00', '2025-03-12 12:05:00'),
+(112, 127, 'Rehabilitación oral en progreso.', '2025-03-12 13:00:00', '2025-03-12 13:05:00'),
+(113, 128, 'Limpieza dental realizada satisfactoriamente.', '2025-03-12 14:00:00', '2025-03-12 14:05:00'),
+(114, 129, 'Extracción dental sin complicaciones.', '2025-03-12 15:00:00', '2025-03-12 15:05:00'),
+(115, 130, 'Tratamiento de endodoncia iniciado.', '2025-03-12 16:00:00', '2025-03-12 16:05:00'),
+
+(116, 131, 'Evaluación para ortodoncia completada.', '2025-03-13 08:00:00', '2025-03-13 08:05:00'),
+(117, 132, 'Ajuste mensual de ortodoncia aplicado.', '2025-03-13 09:00:00', '2025-03-13 09:05:00'),
+(118, 133, 'Blanqueamiento dental exitoso.', '2025-03-13 10:00:00', '2025-03-13 10:05:00'),
+(119, 134, 'Colocación de implante dental realizada.', '2025-03-13 11:00:00', '2025-03-13 11:05:00'),
+(120, 135, 'Profilaxis en niños realizada con recomendaciones.', '2025-03-13 12:00:00', '2025-03-13 12:05:00'),
+(121, 136, 'Aplicación de sellantes dentales para prevención.', '2025-03-13 13:00:00', '2025-03-13 13:05:00'),
+(122, 137, 'Rehabilitación oral en progreso.', '2025-03-13 14:00:00', '2025-03-13 14:05:00'),
+(123, 138, 'Limpieza dental realizada satisfactoriamente.', '2025-03-13 15:00:00', '2025-03-13 15:05:00'),
+(124, 139, 'Extracción dental sin complicaciones.', '2025-03-13 16:00:00', '2025-03-13 16:05:00'),
+
+(125, 140, 'Tratamiento de endodoncia iniciado.', '2025-04-01 08:00:00', '2025-04-01 08:05:00'),
+(126, 141, 'Evaluación para ortodoncia completada.', '2025-04-01 09:00:00', '2025-04-01 09:05:00'),
+(127, 142, 'Ajuste mensual de ortodoncia aplicado.', '2025-04-01 10:00:00', '2025-04-01 10:05:00'),
+(128, 143, 'Blanqueamiento dental exitoso.', '2025-04-01 11:00:00', '2025-04-01 11:05:00'),
+(129, 144, 'Colocación de implante dental realizada.', '2025-04-01 12:00:00', '2025-04-01 12:05:00'),
+(130, 145, 'Profilaxis en niños realizada con recomendaciones.', '2025-04-01 13:00:00', '2025-04-01 13:05:00'),
+(131, 146, 'Aplicación de sellantes dentales para prevención.', '2025-04-01 14:00:00', '2025-04-01 14:05:00'),
+(132, 147, 'Rehabilitación oral en progreso.', '2025-04-01 15:00:00', '2025-04-01 15:05:00'),
+(133, 148, 'Limpieza dental realizada satisfactoriamente.', '2025-04-01 16:00:00', '2025-04-01 16:05:00'),
+(134, 149, 'Extracción dental sin complicaciones.', '2025-04-02 08:00:00', '2025-04-02 08:05:00'),
+(135, 150, 'Tratamiento de endodoncia iniciado.', '2025-04-02 09:00:00', '2025-04-02 09:05:00'),
+(136, 151, 'Evaluación para ortodoncia completada.', '2025-04-02 10:00:00', '2025-04-02 10:05:00'),
+(137, 152, 'Ajuste mensual de ortodoncia aplicado.', '2025-04-02 11:00:00', '2025-04-02 11:05:00'),
+(138, 153, 'Blanqueamiento dental exitoso.', '2025-04-02 12:00:00', '2025-04-02 12:05:00'),
+(139, 154, 'Colocación de implante dental realizada.', '2025-04-02 13:00:00', '2025-04-02 13:05:00'),
+(140, 155, 'Profilaxis en niños realizada con recomendaciones.', '2025-04-02 14:00:00', '2025-04-02 14:05:00'),
+(141, 156, 'Aplicación de sellantes dentales para prevención.', '2025-04-02 15:00:00', '2025-04-02 15:05:00'),
+(142, 157, 'Rehabilitación oral en progreso.', '2025-04-02 16:00:00', '2025-04-02 16:05:00'),
+
+(143, 158, 'Limpieza dental realizada satisfactoriamente.', '2025-04-03 08:00:00', '2025-04-03 08:05:00'),
+(144, 159, 'Extracción dental sin complicaciones.', '2025-04-03 09:00:00', '2025-04-03 09:05:00'),
+(145, 160, 'Tratamiento de endodoncia iniciado.', '2025-04-03 10:00:00', '2025-04-03 10:05:00'),
+(146, 161, 'Evaluación para ortodoncia completada.', '2025-04-03 11:00:00', '2025-04-03 11:05:00'),
+(147, 162, 'Ajuste mensual de ortodoncia aplicado.', '2025-04-03 12:00:00', '2025-04-03 12:05:00'),
+(148, 163, 'Blanqueamiento dental exitoso.', '2025-04-03 13:00:00', '2025-04-03 13:05:00'),
+(149, 164, 'Colocación de implante dental realizada.', '2025-04-03 14:00:00', '2025-04-03 14:05:00'),
+(150, 165, 'Profilaxis en niños realizada con recomendaciones.', '2025-04-03 15:00:00', '2025-04-03 15:05:00'),
+(151, 166, 'Aplicación de sellantes dentales para prevención.', '2025-04-03 16:00:00', '2025-04-03 16:05:00'),
+
+(152, 167, 'Rehabilitación oral en progreso.', '2025-04-04 08:00:00', '2025-04-04 08:05:00'),
+(153, 168, 'Limpieza dental realizada satisfactoriamente.', '2025-04-04 09:00:00', '2025-04-04 09:05:00'),
+(154, 169, 'Extracción dental sin complicaciones.', '2025-04-04 10:00:00', '2025-04-04 10:05:00'),
+(155, 170, 'Tratamiento de endodoncia iniciado.', '2025-04-04 11:00:00', '2025-04-04 11:05:00'),
+(156, 171, 'Evaluación para ortodoncia completada.', '2025-04-04 12:00:00', '2025-04-04 12:05:00'),
+(157, 172, 'Ajuste mensual de ortodoncia aplicado.', '2025-04-04 13:00:00', '2025-04-04 13:05:00'),
+(158, 173, 'Blanqueamiento dental exitoso.', '2025-04-04 14:00:00', '2025-04-04 14:05:00'),
+(159, 174, 'Colocación de implante dental realizada.', '2025-04-04 15:00:00', '2025-04-04 15:05:00'),
+(160, 175, 'Profilaxis en niños realizada con recomendaciones.', '2025-04-04 16:00:00', '2025-04-04 16:05:00'),
+
+(161, 176, 'Aplicación de sellantes dentales para prevención.', '2025-04-07 08:00:00', '2025-04-07 08:05:00'),
+(162, 177, 'Rehabilitación oral en progreso.', '2025-04-07 09:00:00', '2025-04-07 09:05:00'),
+(163, 178, 'Limpieza dental realizada satisfactoriamente.', '2025-04-07 10:00:00', '2025-04-07 10:05:00'),
+(164, 179, 'Extracción dental sin complicaciones.', '2025-04-07 11:00:00', '2025-04-07 11:05:00'),
+(165, 180, 'Tratamiento de endodoncia iniciado.', '2025-04-07 12:00:00', '2025-04-07 12:05:00'),
+(166, 181, 'Evaluación para ortodoncia completada.', '2025-04-07 13:00:00', '2025-04-07 13:05:00'),
+(167, 182, 'Ajuste mensual de ortodoncia aplicado.', '2025-04-07 14:00:00', '2025-04-07 14:05:00'),
+(168, 183, 'Blanqueamiento dental exitoso.', '2025-04-07 15:00:00', '2025-04-07 15:05:00'),
+(169, 184, 'Colocación de implante dental realizada.', '2025-04-07 16:00:00', '2025-04-07 16:05:00'),
+
+(170, 185, 'Profilaxis en niños realizada con recomendaciones.', '2025-05-01 08:00:00', '2025-05-01 08:05:00'),
+(171, 186, 'Aplicación de sellantes dentales para prevención.', '2025-05-01 09:00:00', '2025-05-01 09:05:00'),
+(172, 187, 'Rehabilitación oral en progreso.', '2025-05-01 10:00:00', '2025-05-01 10:05:00'),
+(173, 188, 'Limpieza dental realizada satisfactoriamente.', '2025-05-01 11:00:00', '2025-05-01 11:05:00'),
+(174, 189, 'Extracción dental sin complicaciones.', '2025-05-01 12:00:00', '2025-05-01 12:05:00'),
+(175, 190, 'Tratamiento de endodoncia iniciado.', '2025-05-01 13:00:00', '2025-05-01 13:05:00'),
+(176, 191, 'Evaluación para ortodoncia completada.', '2025-05-01 14:00:00', '2025-05-01 14:05:00'),
+(177, 192, 'Ajuste mensual de ortodoncia aplicado.', '2025-05-01 15:00:00', '2025-05-01 15:05:00'),
+(178, 193, 'Blanqueamiento dental exitoso.', '2025-05-01 16:00:00', '2025-05-01 16:05:00'),
+
+(179, 194, 'Colocación de implante dental realizada.', '2025-05-02 08:00:00', '2025-05-02 08:05:00'),
+(180, 195, 'Profilaxis en niños realizada con recomendaciones.', '2025-05-02 09:00:00', '2025-05-02 09:05:00'),
+(181, 196, 'Aplicación de sellantes dentales para prevención.', '2025-05-02 10:00:00', '2025-05-02 10:05:00'),
+(182, 197, 'Rehabilitación oral en progreso.', '2025-05-02 11:00:00', '2025-05-02 11:05:00'),
+(183, 198, 'Limpieza dental realizada satisfactoriamente.', '2025-05-02 12:00:00', '2025-05-02 12:05:00'),
+(184, 199, 'Extracción dental sin complicaciones.', '2025-05-02 13:00:00', '2025-05-02 13:05:00'),
+(185, 200, 'Tratamiento de endodoncia iniciado.', '2025-05-02 14:00:00', '2025-05-02 14:05:00'),
+
+(186, 201, 'Evaluación para ortodoncia completada.', '2025-05-02 15:00:00', '2025-05-02 15:05:00'),
+(187, 202, 'Ajuste mensual de ortodoncia aplicado.', '2025-05-02 16:00:00', '2025-05-02 16:05:00'),
+
+(188, 203, 'Blanqueamiento dental exitoso.', '2025-05-05 08:00:00', '2025-05-05 08:05:00'),
+(189, 204, 'Colocación de implante dental realizada.', '2025-05-05 09:00:00', '2025-05-05 09:05:00'),
+(190, 205, 'Profilaxis en niños realizada con recomendaciones.', '2025-05-05 10:00:00', '2025-05-05 10:05:00'),
+(191, 206, 'Aplicación de sellantes dentales para prevención.', '2025-05-05 11:00:00', '2025-05-05 11:05:00'),
+(192, 207, 'Rehabilitación oral en progreso.', '2025-05-05 12:00:00', '2025-05-05 12:05:00'),
+(193, 208, 'Limpieza dental realizada satisfactoriamente.', '2025-05-05 13:00:00', '2025-05-05 13:05:00'),
+(194, 209, 'Extracción dental sin complicaciones.', '2025-05-05 14:00:00', '2025-05-05 14:05:00'),
+(195, 210, 'Tratamiento de endodoncia iniciado.', '2025-05-05 15:00:00', '2025-05-05 15:05:00'),
+(196, 211, 'Evaluación para ortodoncia completada.', '2025-05-05 16:00:00', '2025-05-05 16:05:00'),
+
+(197, 212, 'Ajuste mensual de ortodoncia aplicado.', '2025-06-02 08:00:00', '2025-06-02 08:05:00'),
+(198, 213, 'Blanqueamiento dental exitoso.', '2025-06-02 09:00:00', '2025-06-02 09:05:00'),
+(199, 214, 'Colocación de implante dental realizada.', '2025-06-02 10:00:00', '2025-06-02 10:05:00'),
+(200, 215, 'Profilaxis en niños realizada con recomendaciones.', '2025-06-02 11:00:00', '2025-06-02 11:05:00'),
+(201, 216, 'Aplicación de sellantes dentales para prevención.', '2025-06-02 12:00:00', '2025-06-02 12:05:00'),
+(202, 217, 'Rehabilitación oral en progreso.', '2025-06-02 13:00:00', '2025-06-02 13:05:00'),
+(203, 218, 'Limpieza dental realizada satisfactoriamente.', '2025-06-02 14:00:00', '2025-06-02 14:05:00'),
+(204, 219, 'Extracción dental sin complicaciones.', '2025-06-02 15:00:00', '2025-06-02 15:05:00'),
+(205, 220, 'Tratamiento de endodoncia iniciado.', '2025-06-02 16:00:00', '2025-06-02 16:05:00'),
+
+(206, 221, 'Evaluación para ortodoncia completada.', '2025-06-03 08:00:00', '2025-06-03 08:05:00'),
+(207, 222, 'Ajuste mensual de ortodoncia aplicado.', '2025-06-03 09:00:00', '2025-06-03 09:05:00'),
+(208, 223, 'Blanqueamiento dental exitoso.', '2025-06-03 10:00:00', '2025-06-03 10:05:00'),
+(209, 224, 'Colocación de implante dental realizada.', '2025-06-03 11:00:00', '2025-06-03 11:05:00'),
+(210, 225, 'Profilaxis en niños realizada con recomendaciones.', '2025-06-03 12:00:00', '2025-06-03 12:05:00'),
+(211, 226, 'Aplicación de sellantes dentales para prevención.', '2025-06-03 13:00:00', '2025-06-03 13:05:00'),
+(212, 227, 'Rehabilitación oral en progreso.', '2025-06-03 14:00:00', '2025-06-03 14:05:00'),
+(213, 228, 'Limpieza dental realizada satisfactoriamente.', '2025-06-03 15:00:00', '2025-06-03 15:05:00'),
+(214, 229, 'Extracción dental sin complicaciones.', '2025-06-03 16:00:00', '2025-06-03 16:05:00');
 
 
 
 
--- Cliente 1 (CLI3001) - Andrea Rojas Montes (MENOR DE EDAD)
+
+
+-- CITA 1 (CLI3001) - Andrea Rojas Montes (MENOR DE EDAD)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (1, 1, 'Andrea Montes Alvarez', '2025-01-10 09:00:00', 80.00, 'credito', 'correcto');
 
--- Cliente 2 (CLI3002) - Andrea Rojas Montes (Menor de edad)
+-- CITA 2 (CLI3002) - Andrea Rojas Montes (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (2, 2, 'Andrea Montes Alvarez', '2025-01-25 10:00:00', 50.00, 'efectivo', 'correcto');
 
--- Cliente 3 (CLI3003) - Andrea Rojas Montes (Menor de edad)
+-- CITA 3 (CLI3003) - Andrea Rojas Montes (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (3, 3, 'Andrea Montes Alvarez', '2025-02-05 11:00:00', 60.00, 'credito', 'correcto');
 
--- Cliente 4 (CLI3004) - Andrea Rojas Montes (Menor de edad)
+-- CITA 4 (CLI3004) - Andrea Rojas Montes (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (4, 4, 'Andrea Montes Alvarez', '2025-01-15 08:30:00', 100.00, 'transferencia', 'correcto'),
 (5, 4, 'Andrea Montes Alvarez', '2025-02-01 08:45:00', 100.00, 'credito', 'correcto');
 
--- Cliente 5 (CLI3005) - Luis Fernandez Kumar (Menor de edad)
+-- CITA 5 (CLI3005) - Luis Fernandez Kumar (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (6, 5, 'Lucia Kumar Folgueras', '2025-02-02 10:15:00', 90.00, 'efectivo', 'correcto');
 
--- Cliente 6 (CLI3006) - Luis Fernandez Kumar (Menor de edad)
+-- CITA 6 (CLI3006) - Luis Fernandez Kumar (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (7, 6, 'Lucia Kumar Folgueras', '2025-01-18 14:00:00', 150.00, 'debito', 'correcto');
 
--- Cliente 7 (CLI3007) - Luis Fernandez Kumar (Menor de edad)
+-- CITA 7 (CLI3007) - Luis Fernandez Kumar (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (8, 7, 'Lucia Kumar Folgueras', '2025-02-20 09:45:00', 70.00, 'credito', 'correcto'),
@@ -760,23 +944,23 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (49, 36, 'Julio Benavides Kaufman', '2025-04-02 09:15:00', 70.00, 'efectivo', 'correcto');
 
--- Cliente 37 (CLI3037) - Hector Benavides Paz (Menor de edad)
+-- CITA 37 (CLI3037) - Hector Benavides Paz (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (50, 37, 'Julio Benavides Kaufman', '2025-04-04 09:00:00', 60.00, 'credito', 'correcto'),
 (51, 37, 'Julio Benavides Kaufman', '2025-04-11 09:00:00', 60.00, 'credito', 'correcto');
 
--- Cliente 38 (CLI3038) - Sandra Lopez Guerra (Menor de edad)
+-- CITA 38 (CLI3038) - Sandra Lopez Guerra (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (52, 38, 'Gonzalo Lopez Cruz', '2025-04-06 10:45:00', 90.00, 'credito', 'correcto'); 
 
--- Cliente 39 (CLI3039) - Sandra Lopez Guerra (Menor de edad)
+-- CITA 39 (CLI3039) - Sandra Lopez Guerra (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (53, 39, 'Gonzalo Lopez Cruz', '2025-04-08 11:30:00', 105.00, 'efectivo', 'correcto');
 
--- Cliente 40 (CLI3040) - Sandra Lopez Guerra (Menor de edad)
+-- CITA 40 (CLI3040) - Sandra Lopez Guerra (Menor de edad)
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (54, 40, 'Gonzalo Lopez Cruz', '2025-04-09 14:00:00', 110.00, 'transferencia', 'correcto');
@@ -834,3 +1018,816 @@ VALUES
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES 
 (68, 50, 'Claudia Rojas Escalante', '2025-04-20 11:30:00', 90.00, 'transferencia', 'correcto');
+
+
+
+------CITAS REALIZADAS PA JUAN patrocinadas por LUXO
+-- CITA 68 - Cliente 22 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(69, 68, 'Carlos Pérez Gómez', '2025-02-24 09:00:00', 80.00, 'credito', 'correcto');
+
+-- CITA 69 - Cliente 23 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(70, 69, 'Ana Martínez López', '2025-02-22 10:00:00', 70.00, 'debito', 'correcto'),
+(71, 69, 'Ana Martínez López', '2025-02-26 11:00:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 70 - Cliente 24 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(72, 70, 'Luis Fernández Rojas', '2025-02-21 14:00:00', 350.00, 'transferencia', 'correcto');
+
+-- CITA 71 - Cliente 25 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(73, 71, 'María García Pérez', '2025-02-25 08:00:00', 100.00, 'credito', 'correcto');
+
+-- CITA 72 - Cliente 26 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(74, 72, 'María García Pérez', '2025-02-23 09:30:00', 50.00, 'efectivo', 'correcto'),
+(75, 72, 'María García Pérez', '2025-02-27 10:30:00', 70.00, 'debito', 'correcto');
+
+-- CITA 73 - Cliente 27 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(76, 73, 'José López Díaz', '2025-02-20 12:00:00', 250.00, 'credito', 'correcto');
+
+-- CITA 74 - Cliente 28 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(77, 74, 'José López Díaz', '2025-02-22 13:00:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 75 - Cliente 29 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(78, 75, 'Lucía Torres Sánchez', '2025-02-28 15:00:00', 60.00, 'efectivo', 'correcto');
+
+-- CITA 76 - Cliente 30 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(79, 76, 'Lucía Torres Sánchez', '2025-02-25 14:00:00', 70.00, 'credito', 'correcto');
+
+-- CITA 77 - Cliente 31 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(80, 77, 'Mario Gómez Fernández', '2025-02-23 10:00:00', 750.00, 'debito', 'correcto');
+
+-- CITA 78 - Cliente 32 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(81, 78, 'Mario Gómez Fernández', '2025-02-20 09:30:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 79 - Cliente 33 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(82, 79, 'María Valdez Santos', '2025-02-27 08:45:00', 150.00, 'transferencia', 'correcto');
+
+-- CITA 80 - Cliente 34 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(83, 80, 'María Valdez Santos', '2025-02-26 11:00:00', 350.00, 'credito', 'correcto');
+
+-- CITA 81 - Cliente 35 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(84, 81, 'Carlos Fernández Ruiz', '2025-02-25 15:30:00', 100.00, 'efectivo', 'correcto');
+
+-- CITA 82 - Cliente 36 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(85, 82, 'Carlos Fernández Ruiz', '2025-02-24 12:00:00', 120.00, 'debito', 'correcto');
+
+-- CITA 83 - Cliente 37 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(86, 83, 'Ana Morales Jiménez', '2025-02-23 10:45:00', 250.00, 'credito', 'correcto');
+
+-- CITA 84 - Cliente 38 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(87, 84, 'Ana Morales Jiménez', '2025-02-22 09:00:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 85 - Cliente 39 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(88, 85, 'José Pérez Maldonado', '2025-02-21 14:30:00', 60.00, 'efectivo', 'correcto');
+-- CITA 86 - Cliente 40 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(89, 86, 'José Pérez Maldonado', '2025-02-20 10:15:00', 750.00, 'credito', 'correcto');
+
+-- CITA 87 - Cliente 41 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(90, 87, 'Lucia Fernández Torres', '2025-02-19 11:00:00', 80.00, 'debito', 'correcto');
+
+-- CITA 88 - Cliente 42 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(91, 88, 'Lucia Fernández Torres', '2025-02-18 09:45:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 89 - Cliente 43 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(92, 89, 'Mario López Fernández', '2025-02-17 14:30:00', 150.00, 'transferencia', 'correcto');
+
+-- CITA 90 - Cliente 44 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(93, 90, 'Mario López Fernández', '2025-02-16 08:00:00', 350.00, 'credito', 'correcto');
+
+-- CITA 91 - Cliente 45 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(94, 91, 'Ana Morales Torres', '2025-02-15 12:00:00', 100.00, 'efectivo', 'correcto');
+
+-- CITA 92 - Cliente 46 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(95, 92, 'Ana Morales Torres', '2025-02-14 10:00:00', 120.00, 'debito', 'correcto');
+
+-- CITA 93 - Cliente 47 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(96, 93, 'Carlos Gomez Ruiz', '2025-02-13 09:30:00', 250.00, 'credito', 'correcto');
+
+-- CITA 94 - Cliente 48 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(97, 94, 'Carlos Gomez Ruiz', '2025-02-12 15:00:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 95 - Cliente 49 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(98, 95, 'Lucia Fernandez Perez', '2025-02-11 11:15:00', 60.00, 'efectivo', 'correcto');
+-- CITA 96 - Cliente 50 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(99, 96, 'Lucia Fernandez Perez', '2025-02-10 13:00:00', 70.00, 'credito', 'correcto');
+
+-- CITA 97 - Cliente 22 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(100, 97, 'Andres Molina Cruz', '2025-02-09 09:30:00', 750.00, 'debito', 'correcto');
+
+-- CITA 98 - Cliente 23 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(101, 98, 'Andres Molina Cruz', '2025-02-08 11:45:00', 80.00, 'transferencia', 'correcto');
+
+-- CITA 99 - Cliente 24 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(102, 99, 'Sofia Herrera Gomez', '2025-02-07 10:15:00', 150.00, 'credito', 'correcto');
+
+-- CITA 100 - Cliente 25 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(103, 100, 'Sofia Herrera Gomez', '2025-02-06 14:00:00', 350.00, 'efectivo', 'correcto');
+
+-- CITA 101 - Cliente 26 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(104, 101, 'Fernando Ruiz Lopez', '2025-02-05 13:30:00', 100.00, 'debito', 'correcto');
+
+-- CITA 102 - Cliente 27 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(105, 102, 'Fernando Ruiz Lopez', '2025-02-04 09:00:00', 120.00, 'credito', 'correcto');
+
+-- CITA 103 - Cliente 28 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(106, 103, 'Lucia Ramirez Sanchez', '2025-02-03 08:45:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 104 - Cliente 29 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(107, 104, 'Lucia Ramirez Sanchez', '2025-02-02 10:30:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 105 - Cliente 30 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(108, 105, 'Julio Herrera Gomez', '2025-02-01 11:15:00', 60.00, 'credito', 'correcto');
+
+-- CITA 106 - Cliente 31 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(109, 106, 'Julio Herrera Gomez', '2025-02-01 09:00:00', 750.00, 'debito', 'correcto');
+
+-- CITA 107 - Cliente 32 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(110, 107, 'Claudia Mendez Ruiz', '2025-01-31 10:00:00', 80.00, 'transferencia', 'correcto');
+
+-- CITA 108 - Cliente 33 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(111, 108, 'Claudia Mendez Ruiz', '2025-01-30 11:30:00', 150.00, 'credito', 'correcto');
+
+-- CITA 109 - Cliente 34 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(112, 109, 'Mario Vargas Lopez', '2025-01-29 12:00:00', 350.00, 'efectivo', 'correcto');
+
+-- CITA 110 - Cliente 35 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(113, 110, 'Mario Vargas Lopez', '2025-01-28 09:45:00', 100.00, 'credito', 'correcto');
+
+-- CITA 111 - Cliente 36 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(114, 111, 'Ana Morales Ruiz', '2025-01-27 08:30:00', 120.00, 'debito', 'correcto');
+
+-- CITA 112 - Cliente 37 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(115, 112, 'Ana Morales Ruiz', '2025-01-26 10:15:00', 250.00, 'transferencia', 'correcto');
+
+-- CITA 113 - Cliente 38 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(116, 113, 'Carlos Fernandez Lopez', '2025-01-25 11:45:00', 900.00, 'efectivo', 'correcto');
+
+-- CITA 114 - Cliente 39 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(117, 114, 'Carlos Fernandez Lopez', '2025-01-24 09:00:00', 60.00, 'credito', 'correcto');
+
+-- CITA 115 - Cliente 40 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(118, 115, 'Lucia Herrera Gomez', '2025-01-23 08:15:00', 750.00, 'debito', 'correcto');
+
+-- CITA 116 - Cliente 41 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(119, 116, 'Lucia Herrera Gomez', '2025-01-22 10:30:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 117 - Cliente 42 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(120, 117, 'Mario Ruiz Fernandez', '2025-01-21 14:00:00', 150.00, 'credito', 'correcto');
+
+-- CITA 118 - Cliente 43 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(121, 118, 'Mario Ruiz Fernandez', '2025-01-20 11:15:00', 350.00, 'transferencia', 'correcto');
+
+-- CITA 119 - Cliente 44 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(122, 119, 'Ana Gomez Ruiz', '2025-01-19 09:45:00', 100.00, 'debito', 'correcto');
+
+-- CITA 120 - Cliente 45 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(123, 120, 'Ana Gomez Ruiz', '2025-01-18 08:00:00', 120.00, 'credito', 'correcto');
+
+-- CITA 121 - Cliente 46 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(124, 121, 'Carlos Torres Perez', '2025-01-17 15:30:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 122 - Cliente 47 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(125, 122, 'Carlos Torres Perez', '2025-01-16 10:15:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 123 - Cliente 48 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(126, 123, 'Lucia Fernandez Ruiz', '2025-01-15 12:00:00', 60.00, 'credito', 'correcto');
+
+-- CITA 124 - Cliente 49 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(127, 124, 'Lucia Fernandez Ruiz', '2025-01-14 09:30:00', 750.00, 'debito', 'correcto');
+
+-- CITA 125 - Cliente 50 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(128, 125, 'Andres Morales Sanchez', '2025-01-13 08:00:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 126 - Cliente 22 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(129, 126, 'Andres Morales Sanchez', '2025-01-12 10:15:00', 70.00, 'credito', 'correcto');
+
+-- CITA 127 - Cliente 23 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(130, 127, 'Laura Jimenez Lopez', '2025-01-11 11:30:00', 750.00, 'debito', 'correcto');
+
+-- CITA 128 - Cliente 24 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(131, 128, 'Laura Jimenez Lopez', '2025-01-10 09:45:00', 80.00, 'transferencia', 'correcto');
+
+-- CITA 129 - Cliente 25 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(132, 129, 'Ricardo Gomez Perez', '2025-01-09 08:00:00', 150.00, 'credito', 'correcto');
+
+-- CITA 130 - Cliente 26 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(133, 130, 'Ricardo Gomez Perez', '2025-01-08 13:00:00', 350.00, 'efectivo', 'correcto');
+
+-- CITA 131 - Cliente 27 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(134, 131, 'Marta Ramirez Soto', '2025-01-07 10:15:00', 100.00, 'debito', 'correcto');
+
+-- CITA 132 - Cliente 28 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(135, 132, 'Marta Ramirez Soto', '2025-01-06 11:30:00', 120.00, 'credito', 'correcto');
+
+-- CITA 133 - Cliente 29 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(136, 133, 'Sofia Torres Lopez', '2025-01-05 09:00:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 134 - Cliente 30 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(137, 134, 'Sofia Torres Lopez', '2025-01-04 08:15:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 135 - Cliente 31 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(138, 135, 'Juan Perez Gomez', '2025-01-03 14:00:00', 60.00, 'credito', 'correcto');
+
+-- CITA 136 - Cliente 32 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(139, 136, 'Juan Perez Gomez', '2025-01-02 09:30:00', 750.00, 'debito', 'correcto');
+
+-- CITA 137 - Cliente 33 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(140, 137, 'Lucia Martinez Ruiz', '2025-01-01 11:45:00', 80.00, 'transferencia', 'correcto');
+
+-- CITA 138 - Cliente 34 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(141, 138, 'Lucia Martinez Ruiz', '2024-12-31 10:15:00', 150.00, 'credito', 'correcto');
+
+-- CITA 139 - Cliente 35 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(142, 139, 'Carlos Sanchez Lopez', '2024-12-30 14:00:00', 350.00, 'efectivo', 'correcto');
+
+-- CITA 140 - Cliente 36 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(143, 140, 'Carlos Sanchez Lopez', '2024-12-29 08:00:00', 100.00, 'credito', 'correcto');
+
+-- CITA 141 - Cliente 37 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(144, 141, 'Ana Gomez Morales', '2024-12-28 12:00:00', 120.00, 'debito', 'correcto');
+
+-- CITA 142 - Cliente 38 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(145, 142, 'Ana Gomez Morales', '2024-12-27 10:30:00', 250.00, 'transferencia', 'correcto');
+
+-- CITA 143 - Cliente 39 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(146, 143, 'Jose Torres Sanchez', '2024-12-26 09:15:00', 900.00, 'efectivo', 'correcto');
+
+-- CITA 144 - Cliente 40 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(147, 144, 'Jose Torres Sanchez', '2024-12-25 11:00:00', 60.00, 'credito', 'correcto');
+
+-- CITA 145 - Cliente 41 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(148, 145, 'Maria Fernandez Ruiz', '2024-12-24 14:45:00', 750.00, 'debito', 'correcto');
+
+-- CITA 146 - Cliente 42 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(149, 146, 'Maria Fernandez Ruiz', '2024-12-23 09:30:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 147 - Cliente 43 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(150, 147, 'Jorge Molina Torres', '2024-12-22 10:15:00', 150.00, 'credito', 'correcto');
+
+-- CITA 148 - Cliente 44 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(151, 148, 'Jorge Molina Torres', '2024-12-21 11:45:00', 350.00, 'transferencia', 'correcto');
+
+-- CITA 149 - Cliente 45 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(152, 149, 'Sofia Ramirez Sanchez', '2024-12-20 09:00:00', 100.00, 'debito', 'correcto');
+
+-- CITA 150 - Cliente 46 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(153, 150, 'Sofia Ramirez Sanchez', '2024-12-19 08:30:00', 120.00, 'credito', 'correcto');
+
+-- CITA 151 - Cliente 47 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(154, 151, 'Luis Fernandez Lopez', '2024-12-18 13:00:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 152 - Cliente 48 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(155, 152, 'Luis Fernandez Lopez', '2024-12-17 09:45:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 153 - Cliente 49 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(156, 153, 'Gabriela Torres Jimenez', '2024-12-16 08:00:00', 60.00, 'credito', 'correcto');
+
+-- CITA 154 - Cliente 50 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(157, 154, 'Gabriela Torres Jimenez', '2024-12-15 10:30:00', 750.00, 'debito', 'correcto');
+
+-- CITA 155 - Cliente 22 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(158, 155, 'Pedro Martinez Gonzalez', '2024-12-14 11:00:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 156 - Cliente 23 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(159, 156, 'Pedro Martinez Gonzalez', '2024-12-13 09:15:00', 70.00, 'credito', 'correcto');
+
+-- CITA 157 - Cliente 24 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(160, 157, 'Ana Herrera Lopez', '2024-12-12 10:45:00', 750.00, 'debito', 'correcto');
+
+-- CITA 158 - Cliente 25 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(161, 158, 'Ana Herrera Lopez', '2024-12-11 08:30:00', 80.00, 'transferencia', 'correcto');
+
+-- CITA 159 - Cliente 26 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(162, 159, 'Mario Ruiz Fernandez', '2024-12-10 13:00:00', 150.00, 'credito', 'correcto');
+
+-- CITA 160 - Cliente 27 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(163, 160, 'Mario Ruiz Fernandez', '2024-12-09 09:00:00', 350.00, 'efectivo', 'correcto');
+
+-- CITA 161 - Cliente 28 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(164, 161, 'Lucia Morales Perez', '2024-12-08 08:15:00', 100.00, 'debito', 'correcto');
+
+-- CITA 162 - Cliente 29 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(165, 162, 'Lucia Morales Perez', '2024-12-07 14:30:00', 120.00, 'credito', 'correcto');
+
+-- CITA 163 - Cliente 30 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(166, 163, 'Jose Ramirez Sanchez', '2024-12-06 09:00:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 164 - Cliente 31 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(167, 164, 'Jose Ramirez Sanchez', '2024-12-05 10:15:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 165 - Cliente 32 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(168, 165, 'Maria Torres Lopez', '2024-12-04 11:30:00', 60.00, 'credito', 'correcto');
+
+-- CITA 166 - Cliente 33 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(169, 166, 'Maria Torres Lopez', '2024-12-03 09:45:00', 750.00, 'debito', 'correcto');
+
+-- CITA 167 - Cliente 34 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(170, 167, 'Carlos Mendoza Diaz', '2024-12-02 14:00:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 168 - Cliente 35 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(171, 168, 'Carlos Mendoza Diaz', '2024-12-01 10:15:00', 150.00, 'credito', 'correcto');
+
+-- CITA 169 - Cliente 36 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(172, 169, 'Ana Suarez Gomez', '2024-11-30 11:00:00', 350.00, 'transferencia', 'correcto');
+
+-- CITA 170 - Cliente 37 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(173, 170, 'Ana Suarez Gomez', '2024-11-29 08:30:00', 100.00, 'debito', 'correcto');
+
+-- CITA 171 - Cliente 38 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(174, 171, 'Jorge Molina Fernandez', '2024-11-28 13:45:00', 120.00, 'credito', 'correcto');
+
+-- CITA 172 - Cliente 39 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(175, 172, 'Jorge Molina Fernandez', '2024-11-27 09:00:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 173 - Cliente 40 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(176, 173, 'Sofia Ramirez Lopez', '2024-11-26 10:15:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 174 - Cliente 41 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(177, 174, 'Sofia Ramirez Lopez', '2024-11-25 11:30:00', 60.00, 'credito', 'correcto');
+
+-- CITA 175 - Cliente 42 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(178, 175, 'Pedro Fernandez Ruiz', '2024-11-24 09:45:00', 750.00, 'debito', 'correcto');
+
+-- CITA 176 - Cliente 43 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(179, 176, 'Pedro Fernandez Ruiz', '2024-11-23 08:00:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 177 - Cliente 44 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(180, 177, 'Laura Torres Garcia', '2024-11-22 10:15:00', 150.00, 'credito', 'correcto');
+
+-- CITA 178 - Cliente 45 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(181, 178, 'Laura Torres Garcia', '2024-11-21 11:45:00', 350.00, 'transferencia', 'correcto');
+
+-- CITA 179 - Cliente 46 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(182, 179, 'Jorge Martinez Lopez', '2024-11-20 09:00:00', 100.00, 'debito', 'correcto');
+
+-- CITA 180 - Cliente 47 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(183, 180, 'Jorge Martinez Lopez', '2024-11-19 08:30:00', 120.00, 'credito', 'correcto');
+
+-- CITA 181 - Cliente 48 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(184, 181, 'Maria Lopez Ruiz', '2024-11-18 13:00:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 182 - Cliente 49 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(185, 182, 'Maria Lopez Ruiz', '2024-11-17 09:45:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 183 - Cliente 50 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(186, 183, 'Carlos Fernandez Gomez', '2024-11-16 08:00:00', 60.00, 'credito', 'correcto');
+
+-- CITA 184 - Cliente 22 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(187, 184, 'Carlos Fernandez Gomez', '2024-11-15 10:30:00', 750.00, 'debito', 'correcto');
+
+-- CITA 185 - Cliente 23 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(188, 185, 'Lucia Martinez Torres', '2024-11-14 11:00:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 186 - Cliente 24 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(189, 186, 'Lucia Martinez Torres', '2024-11-13 09:15:00', 70.00, 'credito', 'correcto');
+
+-- CITA 187 - Cliente 25 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(190, 187, 'Jorge Ramirez Lopez', '2024-11-12 10:45:00', 750.00, 'debito', 'correcto');
+
+-- CITA 188 - Cliente 26 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(191, 188, 'Jorge Ramirez Lopez', '2024-11-11 08:30:00', 80.00, 'transferencia', 'correcto');
+
+-- CITA 189 - Cliente 27 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(192, 189, 'Ana Torres Fernandez', '2024-11-10 13:00:00', 150.00, 'credito', 'correcto');
+
+-- CITA 190 - Cliente 28 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(193, 190, 'Ana Torres Fernandez', '2024-11-09 09:00:00', 350.00, 'efectivo', 'correcto');
+
+-- CITA 191 - Cliente 29 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(194, 191, 'Carlos Fernandez Ruiz', '2024-11-08 08:15:00', 100.00, 'debito', 'correcto');
+
+-- CITA 192 - Cliente 30 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(195, 192, 'Carlos Fernandez Ruiz', '2024-11-07 14:30:00', 120.00, 'credito', 'correcto');
+
+-- CITA 193 - Cliente 31 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(196, 193, 'Lucia Martinez Gomez', '2024-11-06 09:00:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 194 - Cliente 32 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(197, 194, 'Lucia Martinez Gomez', '2024-11-05 10:15:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 195 - Cliente 33 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(198, 195, 'Mario Ruiz Torres', '2024-11-04 11:30:00', 60.00, 'credito', 'correcto');
+
+-- CITA 196 - Cliente 34 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(199, 196, 'Mario Ruiz Torres', '2024-11-03 09:45:00', 750.00, 'debito', 'correcto');
+
+-- CITA 197 - Cliente 35 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(200, 197, 'Ana Gomez Ruiz', '2024-11-02 08:00:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 198 - Cliente 36 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(201, 198, 'Ana Gomez Ruiz', '2024-11-01 10:15:00', 150.00, 'credito', 'correcto');
+
+-- CITA 199 - Cliente 37 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(202, 199, 'Jorge Martinez Perez', '2024-10-31 11:30:00', 350.00, 'transferencia', 'correcto');
+
+-- CITA 200 - Cliente 38 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(203, 200, 'Jorge Martinez Perez', '2024-10-30 09:00:00', 100.00, 'debito', 'correcto');
+
+-- CITA 201 - Cliente 39 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(204, 201, 'Lucia Torres Gomez', '2024-10-29 08:30:00', 120.00, 'credito', 'correcto');
+
+-- CITA 202 - Cliente 40 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(205, 202, 'Lucia Torres Gomez', '2024-10-28 13:00:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 203 - Cliente 41 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(206, 203, 'Carlos Fernandez Lopez', '2024-10-27 09:45:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 204 - Cliente 42 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(207, 204, 'Carlos Fernandez Lopez', '2024-10-26 10:15:00', 60.00, 'credito', 'correcto');
+
+-- CITA 205 - Cliente 43 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(208, 205, 'Ana Morales Ramirez', '2024-10-25 11:30:00', 750.00, 'debito', 'correcto');
+
+-- CITA 206 - Cliente 44 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(209, 206, 'Ana Morales Ramirez', '2024-10-24 09:00:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 207 - Cliente 45 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(210, 207, 'Jorge Martinez Lopez', '2024-10-23 10:45:00', 150.00, 'credito', 'correcto');
+
+-- CITA 208 - Cliente 46 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(211, 208, 'Jorge Martinez Lopez', '2024-10-22 08:30:00', 350.00, 'transferencia', 'correcto');
+
+-- CITA 209 - Cliente 47 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(212, 209, 'Maria Lopez Sanchez', '2024-10-21 13:00:00', 100.00, 'debito', 'correcto');
+
+-- CITA 210 - Cliente 48 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(213, 210, 'Maria Lopez Sanchez', '2024-10-20 09:45:00', 120.00, 'credito', 'correcto');
+
+-- CITA 211 - Cliente 49 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(214, 211, 'Carlos Torres Gomez', '2024-10-19 08:00:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 212 - Cliente 50 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(215, 212, 'Carlos Torres Gomez', '2024-10-18 10:15:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 213 - Cliente 22 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(216, 213, 'Lucia Fernandez Torres', '2024-10-17 11:30:00', 60.00, 'credito', 'correcto');
+
+-- CITA 214 - Cliente 23 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(217, 214, 'Lucia Fernandez Torres', '2024-10-16 09:00:00', 750.00, 'debito', 'correcto');
+
+-- CITA 215 - Cliente 24 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(218, 215, 'Pedro Martinez Gomez', '2024-10-15 08:30:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 216 - Cliente 25 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(219, 216, 'Pedro Martinez Gomez', '2024-10-14 10:00:00', 70.00, 'credito', 'correcto');
+
+-- CITA 217 - Cliente 26 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(220, 217, 'Ana Herrera Sanchez', '2024-10-13 11:15:00', 750.00, 'debito', 'correcto');
+
+-- CITA 218 - Cliente 27 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(221, 218, 'Ana Herrera Sanchez', '2024-10-12 09:45:00', 80.00, 'transferencia', 'correcto');
+
+-- CITA 219 - Cliente 28 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(222, 219, 'Mario Gomez Perez', '2024-10-11 08:00:00', 150.00, 'credito', 'correcto');
+
+-- CITA 220 - Cliente 29 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(223, 220, 'Mario Gomez Perez', '2024-10-10 13:00:00', 350.00, 'efectivo', 'correcto');
+
+-- CITA 221 - Cliente 30 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(224, 221, 'Lucia Ramirez Torres', '2024-10-09 09:00:00', 100.00, 'debito', 'correcto');
+
+-- CITA 222 - Cliente 31 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(225, 222, 'Lucia Ramirez Torres', '2024-10-08 10:15:00', 120.00, 'credito', 'correcto');
+
+-- CITA 223 - Cliente 32 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(226, 223, 'Carlos Fernandez Ruiz', '2024-10-07 11:30:00', 250.00, 'efectivo', 'correcto');
+
+-- CITA 224 - Cliente 33 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(227, 224, 'Carlos Fernandez Ruiz', '2024-10-06 09:45:00', 900.00, 'transferencia', 'correcto');
+
+-- CITA 225 - Cliente 34 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(228, 225, 'Ana Morales Gomez', '2024-10-05 08:00:00', 60.00, 'credito', 'correcto');
+
+-- CITA 226 - Cliente 35 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(229, 226, 'Ana Morales Gomez', '2024-10-04 10:15:00', 750.00, 'debito', 'correcto');
+
+-- CITA 227 - Cliente 36 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(230, 227, 'Jorge Lopez Sanchez', '2024-10-03 09:00:00', 80.00, 'efectivo', 'correcto');
+
+-- CITA 228 - Cliente 37 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(231, 228, 'Jorge Lopez Sanchez', '2024-10-02 11:30:00', 150.00, 'credito', 'correcto');
+
+-- CITA 229 - Cliente 38 (Menor de edad)
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
+VALUES
+(232, 229, 'Maria Torres Ramirez', '2024-10-01 10:15:00', 350.00, 'transferencia', 'correcto');
