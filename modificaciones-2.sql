@@ -1432,22 +1432,22 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES
 (152, 149, 'Sofia Ramirez Sanchez', '2024-12-20 09:00:00', 100.00, 'debito', 'correcto');
 
--- CITA 150 - Cliente 46 (Menor de edad)
+-- CITA 150 
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES
 (153, 150, 'Sofia Ramirez Sanchez', '2024-12-19 08:30:00', 120.00, 'credito', 'correcto');
 
--- CITA 151 - Cliente 47 (Menor de edad)
+-- CITA 151 
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES
 (154, 151, 'Luis Fernandez Lopez', '2024-12-18 13:00:00', 250.00, 'efectivo', 'correcto');
 
--- CITA 152 - Cliente 48 (Menor de edad)
+-- CITA 152 
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES
 (155, 152, 'Luis Fernandez Lopez', '2024-12-17 09:45:00', 900.00, 'transferencia', 'correcto');
 
--- CITA 153 - Cliente 49 (Menor de edad)
+-- CITA 153 
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado)
 VALUES
 (156, 153, 'Gabriela Torres Jimenez', '2024-12-16 08:00:00', 60.00, 'credito', 'correcto');
