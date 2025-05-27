@@ -1,68 +1,232 @@
-INSERT INTO pago values1,1,"Andrea Montes Alvarez","2024-12-28 09:00:00",80.00,"credito","correcto")
-INSERT INTO pago values2,2,"Andrea Montes Alvarez","2024-12-23 10:00:00",50.00,"efectivo","correcto")
-INSERT INTO pago values3,3,"Andrea Montes Alvarez","2024-12-28 08:30:00",60.00,"credito","correcto")
-INSERT INTO pago values4,4,"Andrea Montes Alvarez","2024-12-30 10:30:00",100.00,"transferencia","correcto")
-INSERT INTO pago values5,4,"Andrea Montes Alvarez","2024-12-26 10:30:00",100.00,"credito","correcto")
-INSERT INTO pago values6,5,"Lucia Kumar Folgueras","2024-12-28 09:00:00",90.00,"efectivo","correcto")
-INSERT INTO pago values7,6,"Lucia Kumar Folgueras","2024-12-26 10:30:00",150.00,"debito","correcto")
-INSERT INTO pago values8,7,"Lucia Kumar Folgueras","2024-12-29 14:00:00",70.00,"credito","correcto")
-INSERT INTO pago values9,7,"Lucia Kumar Folgueras","2024-12-27 14:00:00",70.00,"credito","correcto")
-INSERT INTO pago values10,8,"Lucia Kumar Folgueras","2024-12-29 09:00:00",60.00,"debito","correcto")
-INSERT INTO pago values11,9,"Sandra Dorado Vivian","2024-12-28 10:30:00",90.00,"transferencia","correcto")
-INSERT INTO pago values12,10,"Sandra Dorado Vivian","2025-01-01 12:00:00",80.00,"efectivo","correcto")
-INSERT INTO pago values13,11,"Sandra Dorado Vivian","2024-12-30 09:00:00",85.00,"efectivo","correcto")
-INSERT INTO pago values14,12,"Sandra Dorado Vivian","2025-01-03 14:00:00",75.00,"debito","correcto")
-INSERT INTO pago values15,12,"Sandra Dorado Vivian","2025-01-05 14:00:00",75.00,"debito","correcto")
-INSERT INTO pago values16,13,"Pamela Nunez Hernandez","2025-01-05 09:00:00",95.00,"debito","correcto")
-INSERT INTO pago values17,14,"Sebastian Nunez Hernandez","2025-01-02 11:00:00",60.00,"transferencia","correcto")
-INSERT INTO pago values18,15,"Sebastian Nunez Hernandez","2025-01-05 09:00:00",50.00,"efectivo","correcto")
-INSERT INTO pago values20,15,"Pamela Nunez Hernandez","2025-01-08 09:00:00",50.00,"efectivo","correcto")
-INSERT INTO pago values19,15,"Sebastian Nunez Hernandez","2025-01-08 09:00:00",50.00,"efectivo","correcto")
-INSERT INTO pago values21,16,"Pamela Nunez Hernandez","2025-01-02 10:00:00",100.00,"credito","correcto")
-INSERT INTO pago values22,17,"Diego Mendoza Zapata","2025-01-09 09:00:00",80.00,"transferencia","correcto")
-INSERT INTO pago values23,17,"Diego Mendoza Zapata","2025-01-09 09:00:00",80.00,"transferencia","correcto")
-INSERT INTO pago values24,18,"Diego Mendoza Zapata","2025-01-06 10:30:00",70.00,"debito","correcto")
-INSERT INTO pago values25,19,"Diego Mendoza Zapata","2025-01-08 08:00:00",90.00,"credito","correcto")
-INSERT INTO pago values26,20,"Diego Mendoza Zapata","2025-01-09 10:00:00",85.00,"debito","correcto")
-INSERT INTO pago values27,21,"Bruno Salinas Zamora","2025-01-10 09:00:00",65.00,"efectivo","correcto")
-INSERT INTO pago values28,22,"Bruno Salinas Zamora","2025-01-08 10:00:00",50.00,"debito","correcto")
-INSERT INTO pago values29,22,"Bruno Salinas Zamora","2025-01-05 10:00:00",50.00,"debito","correcto")
-INSERT INTO pago values30,23,"Bruno Salinas Zamora","2025-01-12 11:00:00",95.00,"credito","correcto")
-INSERT INTO pago values31,24,"Bruno Salinas Zamora","2025-01-08 14:00:00",120.00,"transferencia","correcto")
-INSERT INTO pago values32,25,"Bruno Salinas Zamora","2025-01-11 10:00:00",40.00,"efectivo","correcto")
-INSERT INTO pago values33,25,"Bruno Salinas Zamora","2025-01-10 10:00:00",40.00,"efectivo","correcto")
-INSERT INTO pago values34,25,"Bruno Salinas Zamora","2025-01-10 10:00:00",40.00,"efectivo","correcto")
-INSERT INTO pago values35,26,"Ariana Jauregui Xavier","2025-01-09 11:00:00",90.00,"debito","correcto")
-INSERT INTO pago values36,27,"Ariana Jauregui Xavier","2025-01-08 09:00:00",55.00,"credito","correcto")
-INSERT INTO pago values37,27,"Ariana Jauregui Xavier","2025-01-13 09:00:00",55.00,"credito","correcto")
-INSERT INTO pago values38,28,"Ariana Jauregui Xavier","2025-01-10 10:30:00",80.00,"transferencia","correcto")
-INSERT INTO pago values39,29,"Ariana Jauregui Xavier","2025-01-14 11:00:00",100.00,"efectivo","correcto")
-INSERT INTO pago values40,30,"Ariana Jauregui Xavier","2025-01-15 14:00:00",110.00,"credito","correcto")
-INSERT INTO pago values41,31,"Ariana Jauregui Xavier","2025-01-14 16:00:00",95.00,"credito","correcto")
-INSERT INTO pago values42,32,"Julio Benavides Kaufman","2025-01-16 09:00:00",60.00,"efectivo","correcto")
-INSERT INTO pago values43,32,"Julio Reyes Corona","2025-01-18 09:00:00",60.00,"efectivo","correcto")
-INSERT INTO pago values44,33,"Julio Benavides Kaufman","2025-01-19 10:30:00",85.00,"transferencia","correcto")
-INSERT INTO pago values45,34,"Julio Benavides Kaufman","2025-01-19 10:00:00",100.00,"credito","correcto")
-INSERT INTO pago values46,35,"Julio Benavides Kaufman","2025-01-18 14:00:00",40.00,"debito","correcto")
-INSERT INTO pago values47,35,"Julio Benavides Kaufman","2025-01-20 14:00:00",40.00,"debito","correcto")
-INSERT INTO pago values48,35,"Julio Benavides Kaufman","2025-01-19 14:00:00",40.00,"debito","correcto")
-INSERT INTO pago values49,36,"Julio Benavides Kaufman","2025-01-19 10:30:00",70.00,"efectivo","correcto")
-INSERT INTO pago values50,37,"Julio Benavides Kaufman","2025-01-15 13:00:00",60.00,"credito","correcto")
-INSERT INTO pago values51,37,"Julio Benavides Kaufman","2025-01-15 13:00:00",60.00,"credito","correcto")
-INSERT INTO pago values52,38,"Gonzalo Lopez Cruz","2025-01-23 09:00:00",90.00,"credito","correcto")
-INSERT INTO pago values53,39,"Gonzalo Lopez Cruz","2025-01-18 10:30:00",105.00,"efectivo","correcto")
-INSERT INTO pago values54,40,"Gonzalo Lopez Cruz","2025-01-20 10:00:00",110.00,"transferencia","correcto")
-INSERT INTO pago values55,41,"Gonzalo Lopez Cruz","2025-01-22 11:00:00",100.00,"credito","correcto")
-INSERT INTO pago values56,42,"Gonzalo Lopez Cruz","2025-01-23 10:00:00",70.00,"efectivo","correcto")
-INSERT INTO pago values57,42,"Gonzalo Lopez Cruz","2025-01-21 10:00:00",70.00,"efectivo","correcto")
-INSERT INTO pago values58,43,"Gonzalo Lopez Cruz","2025-01-24 11:30:00",85.00,"transferencia","correcto")
-INSERT INTO pago values59,44,"Gonzalo Lopez Cruz","2025-01-26 09:00:00",105.00,"credito","correcto")
-INSERT INTO pago values60,45,"Claudia Rojas Escalante","2025-01-24 09:00:00",50.00,"debito","correcto")
-INSERT INTO pago values61,45,"Claudia Rojas Escalante","2025-01-23 09:00:00",50.00,"debito","correcto")
-INSERT INTO pago values62,45,"Claudia Rojas Escalante","2025-01-26 09:00:00",50.00,"debito","correcto")
-INSERT INTO pago values63,46,"Claudia Rojas Escalante","2025-01-30 10:30:00",95.00,"transferencia","correcto")
-INSERT INTO pago values64,47,"Claudia Rojas Escalante","2025-01-31 11:00:00",60.00,"efectivo","correcto")
-INSERT INTO pago values65,47,"Claudia Rojas Escalante","2025-01-25 11:00:00",60.00,"efectivo","correcto")
-INSERT INTO pago values66,48,"Claudia Rojas Escalante","2025-01-28 14:00:00",110.00,"credito","correcto")
-INSERT INTO pago values67,49,"Claudia Rojas Escalante","2025-01-29 10:00:00",70.00,"credito","correcto")
-INSERT INTO pago values (68,50,"Claudia Rojas Escalante","2025-01-29 12:00:00",40.00,"efectivo","correcto"))
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (1, 1, 'Andrea Montes Alvarez', '2024-12-27 09:00:00', 80.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (2, 2, 'Andrea Montes Alvarez', '2024-12-27 10:00:00', 50.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (3, 3, 'Andrea Montes Alvarez', '2024-12-29 08:30:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (4, 4, 'Andrea Montes Alvarez', '2025-01-01 10:30:00', 100.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (5, 4, 'Andrea Montes Alvarez', '2025-01-01 10:30:00', 100.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (6, 5, 'Lucia Kumar Folgueras', '2024-12-29 09:00:00', 90.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (7, 6, 'Lucia Kumar Folgueras', '2024-12-27 10:30:00', 150.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (8, 7, 'Lucia Kumar Folgueras', '2024-12-30 14:00:00', 70.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (9, 7, 'Lucia Kumar Folgueras', '2024-12-28 14:00:00', 70.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (10, 8, 'Lucia Kumar Folgueras', '2024-12-28 09:00:00', 60.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (11, 9, 'Sandra Dorado Vivian', '2025-01-01 10:30:00', 90.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (12, 10, 'Sandra Dorado Vivian', '2024-12-31 12:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (13, 11, 'Sandra Dorado Vivian', '2025-01-03 09:00:00', 85.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (14, 12, 'Sandra Dorado Vivian', '2025-01-02 14:00:00', 75.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (15, 12, 'Sandra Dorado Vivian', '2025-01-02 14:00:00', 75.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (16, 13, 'Pamela Nunez Hernandez', '2024-12-31 09:00:00', 95.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (17, 14, 'Sebastian Nunez Hernandez', '2025-01-02 11:00:00', 60.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (18, 15, 'Sebastian Nunez Hernandez', '2025-01-07 09:00:00', 50.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (19, 15, 'Sebastian Nunez Hernandez', '2025-01-08 09:00:00', 50.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (20, 15, 'Pamela Nunez Hernandez', '2025-01-08 09:00:00', 50.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (21, 16, 'Pamela Nunez Hernandez', '2025-01-07 10:00:00', 100.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (22, 17, 'Diego Mendoza Zapata', '2025-01-10 09:00:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (23, 17, 'Diego Mendoza Zapata', '2025-01-07 09:00:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (24, 18, 'Diego Mendoza Zapata', '2025-01-05 10:30:00', 70.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (25, 19, 'Diego Mendoza Zapata', '2025-01-09 08:00:00', 90.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (26, 20, 'Diego Mendoza Zapata', '2025-01-09 10:00:00', 85.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (27, 21, 'Bruno Salinas Zamora', '2025-01-06 09:00:00', 65.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (28, 22, 'Bruno Salinas Zamora', '2025-01-08 10:00:00', 50.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (29, 22, 'Bruno Salinas Zamora', '2025-01-06 10:00:00', 50.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (30, 23, 'Bruno Salinas Zamora', '2025-01-11 11:00:00', 95.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (31, 24, 'Bruno Salinas Zamora', '2025-01-08 14:00:00', 120.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (32, 25, 'Bruno Salinas Zamora', '2025-01-07 10:00:00', 40.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (33, 25, 'Bruno Salinas Zamora', '2025-01-14 10:00:00', 40.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (34, 25, 'Bruno Salinas Zamora', '2025-01-08 10:00:00', 40.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (35, 26, 'Ariana Jauregui Xavier', '2025-01-14 11:00:00', 90.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (36, 27, 'Ariana Jauregui Xavier', '2025-01-14 09:00:00', 55.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (37, 27, 'Ariana Jauregui Xavier', '2025-01-15 09:00:00', 55.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (38, 28, 'Ariana Jauregui Xavier', '2025-01-10 10:30:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (39, 29, 'Ariana Jauregui Xavier', '2025-01-13 11:00:00', 100.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (40, 30, 'Ariana Jauregui Xavier', '2025-01-13 14:00:00', 110.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (41, 31, 'Ariana Jauregui Xavier', '2025-01-13 16:00:00', 95.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (42, 32, 'Julio Benavides Kaufman', '2025-01-17 09:00:00', 60.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (43, 32, 'Julio Reyes Corona', '2025-01-15 09:00:00', 60.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (44, 33, 'Julio Benavides Kaufman', '2025-01-17 10:30:00', 85.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (45, 34, 'Julio Benavides Kaufman', '2025-01-15 10:00:00', 100.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (46, 35, 'Julio Benavides Kaufman', '2025-01-15 14:00:00', 40.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (47, 35, 'Julio Benavides Kaufman', '2025-01-14 14:00:00', 40.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (48, 35, 'Julio Benavides Kaufman', '2025-01-15 14:00:00', 40.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (49, 36, 'Julio Benavides Kaufman', '2025-01-21 10:30:00', 70.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (50, 37, 'Julio Benavides Kaufman', '2025-01-19 13:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (51, 37, 'Julio Benavides Kaufman', '2025-01-15 13:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (52, 38, 'Gonzalo Lopez Cruz', '2025-01-16 09:00:00', 90.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (53, 39, 'Gonzalo Lopez Cruz', '2025-01-21 10:30:00', 105.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (54, 40, 'Gonzalo Lopez Cruz', '2025-01-23 10:00:00', 110.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (55, 41, 'Gonzalo Lopez Cruz', '2025-01-18 11:00:00', 100.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (56, 42, 'Gonzalo Lopez Cruz', '2025-01-21 10:00:00', 70.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (57, 42, 'Gonzalo Lopez Cruz', '2025-01-26 10:00:00', 70.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (58, 43, 'Gonzalo Lopez Cruz', '2025-01-23 11:30:00', 85.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (59, 44, 'Gonzalo Lopez Cruz', '2025-01-24 09:00:00', 105.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (60, 45, 'Claudia Rojas Escalante', '2025-01-27 09:00:00', 50.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (61, 45, 'Claudia Rojas Escalante', '2025-01-30 09:00:00', 50.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (62, 45, 'Claudia Rojas Escalante', '2025-01-24 09:00:00', 50.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (63, 46, 'Claudia Rojas Escalante', '2025-01-27 10:30:00', 95.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (64, 47, 'Claudia Rojas Escalante', '2025-01-25 11:00:00', 60.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (65, 47, 'Claudia Rojas Escalante', '2025-01-31 11:00:00', 60.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (66, 48, 'Claudia Rojas Escalante', '2025-01-29 14:00:00', 110.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (67, 49, 'Claudia Rojas Escalante', '2025-01-27 10:00:00', 70.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (68, 50, 'Claudia Rojas Escalante', '2025-01-29 13:00:00', 90.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (69, 68, 'Carlos Pérez Gómez', '2025-02-27 08:00:00', 80.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (70, 69, 'Ana Martínez López', '2025-02-27 09:00:00', 70.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (71, 69, 'Ana Martínez López', '2025-02-28 09:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (72, 70, 'Luis Fernández Rojas', '2025-02-22 10:00:00', 350.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (73, 71, 'María García Pérez', '2025-03-01 11:00:00', 100.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (74, 72, 'María García Pérez', '2025-02-22 12:00:00', 50.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (75, 72, 'María García Pérez', '2025-02-24 12:00:00', 70.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (76, 73, 'José López Díaz', '2025-02-24 13:00:00', 250.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (77, 74, 'José López Díaz', '2025-02-23 14:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (78, 75, 'Lucía Torres Sánchez', '2025-02-25 15:00:00', 60.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (79, 76, 'Lucía Torres Sánchez', '2025-02-23 16:00:00', 70.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (80, 77, 'Mario Gómez Fernández', '2025-02-28 08:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (81, 78, 'Mario Gómez Fernández', '2025-03-02 09:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (82, 79, 'María Valdez Santos', '2025-02-27 10:00:00', 150.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (83, 80, 'María Valdez Santos', '2025-02-24 11:00:00', 350.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (84, 81, 'Carlos Fernández Ruiz', '2025-03-02 12:00:00', 100.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (85, 82, 'Carlos Fernández Ruiz', '2025-02-23 13:00:00', 120.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (86, 83, 'Ana Morales Jiménez', '2025-02-28 14:00:00', 250.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (87, 84, 'Ana Morales Jiménez', '2025-03-02 15:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (88, 85, 'José Pérez Maldonado', '2025-02-28 16:00:00', 60.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (89, 86, 'José Pérez Maldonado', '2025-03-01 08:00:00', 750.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (90, 87, 'Lucia Fernández Torres', '2025-02-26 09:00:00', 80.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (91, 88, 'Lucia Fernández Torres', '2025-02-26 10:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (92, 89, 'Mario López Fernández', '2025-03-03 11:00:00', 150.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (93, 90, 'Mario López Fernández', '2025-02-27 12:00:00', 350.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (94, 91, 'Ana Morales Torres', '2025-02-25 13:00:00', 100.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (95, 92, 'Ana Morales Torres', '2025-02-25 14:00:00', 120.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (96, 93, 'Carlos Gomez Ruiz', '2025-02-27 15:00:00', 250.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (97, 94, 'Carlos Gomez Ruiz', '2025-03-01 16:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (98, 95, 'Lucia Fernandez Perez', '2025-02-28 08:00:00', 60.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (99, 96, 'Lucia Fernandez Perez', '2025-03-02 09:00:00', 70.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (100, 97, 'Andres Molina Cruz', '2025-03-03 10:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (101, 98, 'Andres Molina Cruz', '2025-02-27 11:00:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (102, 99, 'Sofia Herrera Gomez', '2025-02-27 12:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (103, 100, 'Sofia Herrera Gomez', '2025-03-01 13:00:00', 350.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (104, 101, 'Fernando Ruiz Lopez', '2025-03-03 14:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (105, 102, 'Fernando Ruiz Lopez', '2025-03-03 15:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (106, 103, 'Lucia Ramirez Sanchez', '2025-03-04 16:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (107, 104, 'Lucia Ramirez Sanchez', '2025-03-07 08:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (108, 105, 'Julio Herrera Gomez', '2025-03-02 09:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (109, 106, 'Julio Herrera Gomez', '2025-03-05 10:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (110, 107, 'Claudia Mendez Ruiz', '2025-03-01 11:00:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (111, 108, 'Claudia Mendez Ruiz', '2025-03-08 12:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (112, 109, 'Mario Vargas Lopez', '2025-03-04 13:00:00', 350.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (113, 110, 'Mario Vargas Lopez', '2025-03-06 14:00:00', 100.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (114, 111, 'Ana Morales Ruiz', '2025-03-07 15:00:00', 120.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (115, 112, 'Ana Morales Ruiz', '2025-03-03 16:00:00', 250.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (116, 113, 'Carlos Fernandez Lopez', '2025-03-06 08:00:00', 900.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (117, 114, 'Carlos Fernandez Lopez', '2025-03-07 09:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (118, 115, 'Lucia Herrera Gomez', '2025-03-09 10:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (119, 116, 'Lucia Herrera Gomez', '2025-03-07 11:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (120, 117, 'Mario Ruiz Fernandez', '2025-03-04 12:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (121, 118, 'Mario Ruiz Fernandez', '2025-03-08 13:00:00', 350.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (122, 119, 'Ana Gomez Ruiz', '2025-03-02 14:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (123, 120, 'Ana Gomez Ruiz', '2025-03-06 15:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (124, 121, 'Carlos Torres Perez', '2025-03-08 16:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (125, 122, 'Carlos Torres Perez', '2025-03-07 08:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (126, 123, 'Lucia Fernandez Ruiz', '2025-03-04 09:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (127, 124, 'Lucia Fernandez Ruiz', '2025-03-03 10:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (128, 125, 'Andres Morales Sanchez', '2025-03-04 11:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (129, 126, 'Andres Morales Sanchez', '2025-03-04 12:00:00', 70.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (130, 127, 'Laura Jimenez Lopez', '2025-03-07 13:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (131, 128, 'Laura Jimenez Lopez', '2025-03-04 14:00:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (132, 129, 'Ricardo Gomez Perez', '2025-03-05 15:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (133, 130, 'Ricardo Gomez Perez', '2025-03-03 16:00:00', 350.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (134, 131, 'Marta Ramirez Soto', '2025-03-11 08:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (135, 132, 'Marta Ramirez Soto', '2025-03-11 09:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (136, 133, 'Sofia Torres Lopez', '2025-03-11 10:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (137, 134, 'Sofia Torres Lopez', '2025-03-06 11:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (138, 135, 'Juan Perez Gomez', '2025-03-10 12:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (139, 136, 'Juan Perez Gomez', '2025-03-10 13:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (140, 137, 'Lucia Martinez Ruiz', '2025-03-07 14:00:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (141, 138, 'Lucia Martinez Ruiz', '2025-03-08 15:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (142, 139, 'Carlos Sanchez Lopez', '2025-03-11 16:00:00', 350.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (143, 140, 'Carlos Sanchez Lopez', '2025-03-27 08:00:00', 100.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (144, 141, 'Ana Gomez Morales', '2025-03-27 09:00:00', 120.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (145, 142, 'Ana Gomez Morales', '2025-03-25 10:00:00', 250.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (146, 143, 'Jose Torres Sanchez', '2025-03-30 11:00:00', 900.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (147, 144, 'Jose Torres Sanchez', '2025-03-29 12:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (148, 145, 'Maria Fernandez Ruiz', '2025-03-30 13:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (149, 146, 'Maria Fernandez Ruiz', '2025-03-26 14:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (150, 147, 'Jorge Molina Torres', '2025-03-30 15:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (151, 148, 'Jorge Molina Torres', '2025-03-26 16:00:00', 350.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (152, 149, 'Sofia Ramirez Sanchez', '2025-03-24 08:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (153, 150, 'Sofia Ramirez Sanchez', '2025-03-28 09:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (154, 151, 'Luis Fernandez Lopez', '2025-03-29 10:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (155, 152, 'Luis Fernandez Lopez', '2025-03-25 11:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (156, 153, 'Gabriela Torres Jimenez', '2025-03-27 12:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (157, 154, 'Gabriela Torres Jimenez', '2025-03-25 13:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (158, 155, 'Pedro Martinez Gonzalez', '2025-03-25 14:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (159, 156, 'Pedro Martinez Gonzalez', '2025-03-27 15:00:00', 70.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (160, 157, 'Ana Herrera Lopez', '2025-03-25 16:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (161, 158, 'Ana Herrera Lopez', '2025-03-28 08:00:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (162, 159, 'Mario Ruiz Fernandez', '2025-03-26 09:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (163, 160, 'Mario Ruiz Fernandez', '2025-03-29 10:00:00', 350.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (164, 161, 'Lucia Morales Perez', '2025-04-01 11:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (165, 162, 'Lucia Morales Perez', '2025-03-28 12:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (166, 163, 'Jose Ramirez Sanchez', '2025-03-26 13:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (167, 164, 'Jose Ramirez Sanchez', '2025-03-29 14:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (168, 165, 'Maria Torres Lopez', '2025-03-30 15:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (169, 166, 'Maria Torres Lopez', '2025-03-31 16:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (170, 167, 'Carlos Mendoza Diaz', '2025-03-26 08:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (171, 168, 'Carlos Mendoza Diaz', '2025-03-26 09:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (172, 169, 'Ana Suarez Gomez', '2025-03-30 10:00:00', 350.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (173, 170, 'Ana Suarez Gomez', '2025-03-27 11:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (174, 171, 'Jorge Molina Fernandez', '2025-03-29 12:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (175, 172, 'Jorge Molina Fernandez', '2025-04-02 13:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (176, 173, 'Sofia Ramirez Lopez', '2025-03-29 14:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (177, 174, 'Sofia Ramirez Lopez', '2025-04-02 15:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (178, 175, 'Pedro Fernandez Ruiz', '2025-03-28 16:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (179, 176, 'Pedro Fernandez Ruiz', '2025-04-05 08:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (180, 177, 'Laura Torres Garcia', '2025-04-03 09:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (181, 178, 'Laura Torres Garcia', '2025-03-31 10:00:00', 350.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (182, 179, 'Jorge Martinez Lopez', '2025-03-30 11:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (183, 180, 'Jorge Martinez Lopez', '2025-04-03 12:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (184, 181, 'Maria Lopez Ruiz', '2025-04-03 13:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (185, 182, 'Maria Lopez Ruiz', '2025-04-04 14:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (186, 183, 'Carlos Fernandez Gomez', '2025-03-31 15:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (187, 184, 'Carlos Fernandez Gomez', '2025-03-31 16:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (188, 185, 'Lucia Martinez Torres', '2025-04-28 08:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (189, 186, 'Lucia Martinez Torres', '2025-04-23 09:00:00', 70.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (190, 187, 'Jorge Ramirez Lopez', '2025-04-27 10:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (191, 188, 'Jorge Ramirez Lopez', '2025-04-29 11:00:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (192, 189, 'Ana Torres Fernandez', '2025-04-22 12:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (193, 190, 'Ana Torres Fernandez', '2025-04-25 13:00:00', 350.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (194, 191, 'Carlos Fernandez Ruiz', '2025-04-29 14:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (195, 192, 'Carlos Fernandez Ruiz', '2025-04-26 15:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (196, 193, 'Lucia Martinez Gomez', '2025-04-26 16:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (197, 194, 'Lucia Martinez Gomez', '2025-04-26 08:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (198, 195, 'Mario Ruiz Torres', '2025-04-30 09:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (199, 196, 'Mario Ruiz Torres', '2025-04-26 10:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (200, 197, 'Ana Gomez Ruiz', '2025-04-28 11:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (201, 198, 'Ana Gomez Ruiz', '2025-04-28 12:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (202, 199, 'Jorge Martinez Perez', '2025-04-24 13:00:00', 350.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (203, 200, 'Jorge Martinez Perez', '2025-04-26 14:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (204, 201, 'Lucia Torres Gomez', '2025-04-25 15:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (205, 202, 'Lucia Torres Gomez', '2025-04-30 16:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (206, 203, 'Carlos Fernandez Lopez', '2025-04-27 08:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (207, 204, 'Carlos Fernandez Lopez', '2025-04-28 09:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (208, 205, 'Ana Morales Ramirez', '2025-05-02 10:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (209, 206, 'Ana Morales Ramirez', '2025-05-03 11:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (210, 207, 'Jorge Martinez Lopez', '2025-05-01 12:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (211, 208, 'Jorge Martinez Lopez', '2025-04-27 13:00:00', 350.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (212, 209, 'Maria Lopez Sanchez', '2025-04-27 14:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (213, 210, 'Maria Lopez Sanchez', '2025-04-28 15:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (214, 211, 'Carlos Torres Gomez', '2025-04-27 16:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (215, 212, 'Carlos Torres Gomez', '2025-05-29 08:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (216, 213, 'Lucia Fernandez Torres', '2025-05-27 09:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (217, 214, 'Lucia Fernandez Torres', '2025-05-24 10:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (218, 215, 'Pedro Martinez Gomez', '2025-05-25 11:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (219, 216, 'Pedro Martinez Gomez', '2025-05-31 12:00:00', 70.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (220, 217, 'Ana Herrera Sanchez', '2025-05-27 13:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (221, 218, 'Ana Herrera Sanchez', '2025-05-25 14:00:00', 80.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (222, 219, 'Mario Gomez Perez', '2025-05-28 15:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (223, 220, 'Mario Gomez Perez', '2025-05-28 16:00:00', 350.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (224, 221, 'Lucia Ramirez Torres', '2025-05-26 08:00:00', 100.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (225, 222, 'Lucia Ramirez Torres', '2025-05-30 09:00:00', 120.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (226, 223, 'Carlos Fernandez Ruiz', '2025-05-28 10:00:00', 250.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (227, 224, 'Carlos Fernandez Ruiz', '2025-05-29 11:00:00', 900.00, 'transferencia', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (228, 225, 'Ana Morales Gomez', '2025-06-01 12:00:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (229, 226, 'Ana Morales Gomez', '2025-05-29 13:00:00', 750.00, 'debito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (230, 227, 'Jorge Lopez Sanchez', '2025-05-25 14:00:00', 80.00, 'efectivo', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (231, 228, 'Jorge Lopez Sanchez', '2025-05-29 15:00:00', 150.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (232, 229, 'Maria Torres Ramirez', '2025-06-01 16:00:00', 350.00, 'transferencia', 'correcto');
