@@ -575,12 +575,12 @@ VALUES
 (50, 57, 'Se ajusta blanqueamiento dental. Proxima sesion en 1 mes.', '2025-06-20 11:35:00', '2025-06-20 11:40:00'),
 (51, 58, 'Aplicacion de sellantes. Sin novedades.', '2025-02-17 09:35:00', '2025-02-17 09:40:00'),
 (52, 59, 'Evaluacion de ortodoncia. Se define plan de tratamiento.', '2025-02-25 10:35:00', '2025-02-25 10:40:00'),
-(53, 60, 'Extraccion dental. Seguimiento y cuidados post-operatorios.', '2025-03-08 11:50:00', '2025-03-08 11:55:00'), 
-(54, 62, 'Limpieza dental completa. Se recomienda uso de hilo dental.', '2025-01-25 09:50:00', '2025-01-25 09:55:00'),
-(55, 63, 'Aplicacion de sellantes. Sin novedades.', '2025-02-17 09:35:00', '2025-02-17 09:40:00'),
-(56, 64, 'Evaluacion de ortodoncia. Se define plan de tratamiento.', '2025-02-25 10:35:00', '2025-02-25 10:40:00'),
-(57, 65, 'Extraccion dental. Seguimiento y cuidados post-operatorios.', '2025-03-08 11:50:00', '2025-03-08 11:55:00'), 
-(58, 66, 'Limpieza dental completa. Se recomienda uso de hilo dental.', '2025-01-25 09:50:00', '2025-01-25 09:55:00');
+(215, 60, 'Extraccion dental. Seguimiento y cuidados post-operatorios.', '2025-03-08 11:50:00', '2025-03-08 11:55:00'), 
+(216, 62, 'Limpieza dental completa. Se recomienda uso de hilo dental.', '2025-01-25 09:50:00', '2025-01-25 09:55:00'),
+(217, 63, 'Aplicacion de sellantes. Sin novedades.', '2025-02-17 09:35:00', '2025-02-17 09:40:00'),
+(218, 64, 'Evaluacion de ortodoncia. Se define plan de tratamiento.', '2025-02-25 10:35:00', '2025-02-25 10:40:00'),
+(219, 65, 'Extraccion dental. Seguimiento y cuidados post-operatorios.', '2025-03-08 11:50:00', '2025-03-08 11:55:00'), 
+(220, 66, 'Limpieza dental completa. Se recomienda uso de hilo dental.', '2025-01-25 09:50:00', '2025-01-25 09:55:00');
 
 --INSERTS pa JUAN de parte de LUXO
 INSERT INTO acto_medico (acto_medico_id, cita_id, observaciones, fecha_realizacion, modificado_en) VALUES
@@ -762,7 +762,7 @@ INSERT INTO acto_medico (acto_medico_id, cita_id, observaciones, fecha_realizaci
 (212, 227, 'Rehabilitación oral en progreso.', '2025-06-03 14:00:00', '2025-06-03 14:05:00'),
 (213, 228, 'Limpieza dental realizada satisfactoriamente.', '2025-06-03 15:00:00', '2025-06-03 15:05:00'),
 (214, 229, 'Extracción dental sin complicaciones.', '2025-06-03 16:00:00', '2025-06-03 16:05:00');
-
+--***Hay 220 actos medicos +- solo que hay un desorden desde la cita 53 hasta la 67***
 
 
 --PAgos PA JUAN patrocinadas por LUXO
@@ -773,7 +773,7 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 -- CITA 2
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (2, 2, 'Andrea Montes Alvarez', '2024-12-27 10:00:00', 150.00, 'efectivo', 'correcto');
 -- CITA 3
-INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (3, 3, 'Andrea Montes Alvarez', '2024-12-29 08:30:00', 60.00, 'credito', 'correcto');
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (3, 3, 'Andrea Montes Alvarez', '2024-12-29 08:30:00', 350.00, 'credito', 'correcto');
 -- CITA 4*****
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES 
 (4, 4, 'Andrea Montes Alvarez', '2025-01-01 10:30:00', 50.00, 'transferencia', 'correcto'),
@@ -783,9 +783,9 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 -- CITA 6
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (7, 6, 'Lucia Kumar Folgueras', '2024-12-27 10:30:00', 150.00, 'debito', 'correcto');
 -- CITA 7
-INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES
-(8, 7, 'Lucia Kumar Folgueras', '2024-12-30 14:00:00', 40.00, 'credito', 'correcto'),
-(9, 7, 'Lucia Kumar Folgueras', '2024-12-28 14:00:00', 40.00, 'credito', 'correcto');
+-- INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES
+-- (8, 7, 'Lucia Kumar Folgueras', '2024-12-30 14:00:00', 40.00, 'credito', 'correcto'),
+-- (9, 7, 'Lucia Kumar Folgueras', '2024-12-28 14:00:00', 40.00, 'credito', 'correcto');
 -- CITA 8
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (10, 8, 'Lucia Kumar Folgueras', '2024-12-28 09:00:00', 60.00, 'debito', 'correcto');
 -- CITA 9
@@ -793,7 +793,7 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 -- CITA 10
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (12, 10, 'Sandra Dorado Vivian', '2024-12-31 12:00:00', 80.00, 'efectivo', 'correcto');
 -- CITA 11
-INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (13, 11, 'Sandra Dorado Vivian', '2025-01-03 09:00:00', 85.00, 'efectivo', 'correcto');
+-- INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (13, 11, 'Sandra Dorado Vivian', '2025-01-03 09:00:00', 85.00, 'efectivo', 'correcto');
 -- CITA 12
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES
 (14, 12, 'Sandra Dorado Vivian', '2025-01-02 14:00:00', 75.00, 'debito', 'correcto'),
@@ -826,7 +826,7 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 -- CITA 23
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (30, 23, 'Bruno Salinas Zamora', '2025-01-11 11:00:00', 95.00, 'credito', 'correcto');
 -- CITA 24
-INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (31, 24, 'Bruno Salinas Zamora', '2025-01-08 14:00:00', 120.00, 'transferencia', 'correcto');
+-- INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (31, 24, 'Bruno Salinas Zamora', '2025-01-08 14:00:00', 120.00, 'transferencia', 'correcto');
 -- CITA 25
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES
 (32, 25, 'Bruno Salinas Zamora', '2025-01-07 10:00:00', 40.00, 'efectivo', 'correcto'),
@@ -835,9 +835,9 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 -- CITA 26
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (35, 26, 'Ariana Jauregui Xavier', '2025-01-14 11:00:00', 90.00, 'debito', 'correcto');
 -- CITA 27
-INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES
-(36, 27, 'Ariana Jauregui Xavier', '2025-01-14 09:00:00', 55.00, 'credito', 'correcto'),
-(37, 27, 'Ariana Jauregui Xavier', '2025-01-15 09:00:00', 55.00, 'credito', 'correcto');
+-- INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES
+-- (36, 27, 'Ariana Jauregui Xavier', '2025-01-14 09:00:00', 55.00, 'credito', 'correcto'),
+-- (37, 27, 'Ariana Jauregui Xavier', '2025-01-15 09:00:00', 55.00, 'credito', 'correcto');
 -- CITA 28
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (38, 28, 'Ariana Jauregui Xavier', '2025-01-10 10:30:00', 80.00, 'transferencia', 'correcto');
 -- CITA 29
@@ -850,8 +850,8 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES
 (42, 32, 'Julio Benavides Kaufman', '2025-01-17 09:00:00', 60.00, 'efectivo', 'correcto'),
 (43, 32, 'Julio Reyes Corona', '2025-01-15 09:00:00', 60.00, 'efectivo', 'correcto');
--- CITA 33
-INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (44, 33, 'Julio Benavides Kaufman', '2025-01-17 10:30:00', 85.00, 'transferencia', 'correcto');
+---- CITA 33
+-- INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (44, 33, 'Julio Benavides Kaufman', '2025-01-17 10:30:00', 85.00, 'transferencia', 'correcto');
 -- CITA 34
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (45, 34, 'Julio Benavides Kaufman', '2025-01-15 10:00:00', 100.00, 'credito', 'correcto');
 -- CITA 35
@@ -888,7 +888,7 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 -- CITA 45
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (62, 45, 'Claudia Rojas Escalante', '2025-01-24 09:00:00', 50.00, 'debito', 'correcto');
 -- CITA 46
-INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (63, 46, 'Claudia Rojas Escalante', '2025-01-27 10:30:00', 95.00, 'transferencia', 'correcto');
+-- INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (63, 46, 'Claudia Rojas Escalante', '2025-01-27 10:30:00', 95.00, 'transferencia', 'correcto');
 -- CITA 47
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES
 (64, 47, 'Claudia Rojas Escalante', '2025-01-25 11:00:00', 60.00, 'efectivo', 'correcto'),
@@ -899,6 +899,55 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (67, 49, 'Claudia Rojas Escalante', '2025-01-27 10:00:00', 70.00, 'credito', 'correcto');
 -- CITA 50
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (68, 50, 'Claudia Rojas Escalante', '2025-01-29 13:00:00', 90.00, 'transferencia', 'correcto');
+--HAY DESORDEN EN EL ID DE PAGO, PORQUE FUERON CREADOS POSTERIORMENTE(desde el id 233 en ademalante)
+-- CITA 54
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (233, 54, 'Mariana Gutierrez Lopez', '2025-02-20 09:30:00', 100.00, 'credito', 'correcto');
+
+-- CITA 56
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (234, 56, 'Luis Ramirez Vega', '2025-02-21 11:00:00', 150.00, 'debito', 'correcto');
+
+-- CITA 57
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (235, 57, 'Luis Ramirez Vega', '2025-02-22 10:00:00', 80.00, 'efectivo', 'correcto'),
+       (236, 57, 'Luis Ramirez Vega', '2025-02-24 10:30:00', 70.00, 'credito', 'correcto');
+
+-- CITA 58
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (237, 58, 'Ana Lucia Fernandez', '2025-02-23 09:00:00', 90.00, 'transferencia', 'correcto');
+
+-- CITA 59
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (238, 59, 'Ana Lucia Fernandez', '2025-02-25 14:00:00', 60.00, 'credito', 'correcto'),
+       (239, 59, 'Ana Lucia Fernandez', '2025-02-27 15:00:00', 40.00, 'efectivo', 'correcto');
+
+-- CITA 60
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (240, 60, 'Jorge Molina Torres', '2025-02-26 08:30:00', 120.00, 'debito', 'correcto');
+
+-- CITA 62
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (241, 62, 'Lucia Ramirez Soto', '2025-02-28 09:30:00', 150.00, 'transferencia', 'correcto');
+
+-- CITA 63
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (242, 63, 'Lucia Ramirez Soto', '2025-03-01 10:00:00', 80.00, 'credito', 'correcto'),
+       (243, 63, 'Lucia Ramirez Soto', '2025-03-03 10:30:00', 70.00, 'debito', 'correcto');
+
+-- CITA 64
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (244, 64, 'Fernando Alvarez Diaz', '2025-03-02 11:00:00', 60.00, 'efectivo', 'correcto');
+
+-- CITA 65
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (245, 65, 'Fernando Alvarez Diaz', '2025-03-04 12:00:00', 90.00, 'credito', 'correcto');
+
+-- CITA 66
+INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) 
+VALUES (246, 66, 'Paola Mendoza Flores', '2025-03-05 09:00:00', 110.00, 'debito', 'correcto');
+
+
 --*****HASTA ACA SON PAGOS DE APODERADOS A CLIENTES MENORES*****-----CONSULTAR A JUAN-----------
 
 -- CITA 68
