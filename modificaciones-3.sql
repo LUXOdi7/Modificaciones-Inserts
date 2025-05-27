@@ -568,13 +568,19 @@ VALUES
 (43, 49, 'Implante dental. Se inicia fase de cicatrizacion.', '2025-02-05 12:05:00', '2025-02-05 12:15:00'), -- Cita reagendada
 (44, 50, 'Sellantes dentales. Dientes protegidos.', '2025-02-05 13:35:00', '2025-02-05 13:40:00'),
 (45, 51, 'Rehabilitacion oral. Ajustes finales de oclusion.', '2025-02-06 11:05:00', '2025-02-06 11:15:00'),
-(46, 52, 'Control de ortodoncia mensual. Avance notable.', '2025-02-06 11:55:00', '2025-02-06 12:00:00'),
-(47, 57, 'Se confirma reagendamiento de limpieza dental.', '2025-06-10 08:30:00', '2025-06-10 08:35:00'), -- Cita reagendada
-(48, 60, 'Se ajusta blanqueamiento dental. Proxima sesion en 1 mes.', '2025-06-20 11:35:00', '2025-06-20 11:40:00'), -- Cita reagendada
-(49, 63, 'Aplicacion de sellantes. Sin novedades.', '2025-02-17 09:35:00', '2025-02-17 09:40:00'),
-(50, 64, 'Evaluacion de ortodoncia. Se define plan de tratamiento.', '2025-02-25 10:35:00', '2025-02-25 10:40:00'),
-(51, 65, 'Extraccion dental. Seguimiento y cuidados post-operatorios.', '2025-03-08 11:50:00', '2025-03-08 11:55:00'), -- Cita reagendada
-(52, 66, 'Limpieza dental completa. Se recomienda uso de hilo dental.', '2025-01-25 09:50:00', '2025-01-25 09:55:00');
+(46, 52, 'Control de ortodoncia mensual. Avance notable.', '2025-02-06 11:55:00', '2025-02-06 12:00:00'), 
+(47, 53, 'Control de ortodoncia mensual. Avance notable.', '2025-02-06 11:55:00', '2025-02-06 12:00:00'),  
+(48, 54, 'Control de ortodoncia mensual. Avance notable.', '2025-02-06 11:55:00', '2025-02-06 12:00:00'), 
+(49, 56, 'Se confirma reagendamiento de limpieza dental.', '2025-06-10 08:30:00', '2025-06-10 08:35:00'), 
+(50, 57, 'Se ajusta blanqueamiento dental. Proxima sesion en 1 mes.', '2025-06-20 11:35:00', '2025-06-20 11:40:00'),
+(51, 58, 'Aplicacion de sellantes. Sin novedades.', '2025-02-17 09:35:00', '2025-02-17 09:40:00'),
+(52, 59, 'Evaluacion de ortodoncia. Se define plan de tratamiento.', '2025-02-25 10:35:00', '2025-02-25 10:40:00'),
+(53, 60, 'Extraccion dental. Seguimiento y cuidados post-operatorios.', '2025-03-08 11:50:00', '2025-03-08 11:55:00'), 
+(54, 62, 'Limpieza dental completa. Se recomienda uso de hilo dental.', '2025-01-25 09:50:00', '2025-01-25 09:55:00'),
+(55, 63, 'Aplicacion de sellantes. Sin novedades.', '2025-02-17 09:35:00', '2025-02-17 09:40:00'),
+(56, 64, 'Evaluacion de ortodoncia. Se define plan de tratamiento.', '2025-02-25 10:35:00', '2025-02-25 10:40:00'),
+(57, 65, 'Extraccion dental. Seguimiento y cuidados post-operatorios.', '2025-03-08 11:50:00', '2025-03-08 11:55:00'), 
+(58, 66, 'Limpieza dental completa. Se recomienda uso de hilo dental.', '2025-01-25 09:50:00', '2025-01-25 09:55:00');
 
 --INSERTS pa JUAN de parte de LUXO
 INSERT INTO acto_medico (acto_medico_id, cita_id, observaciones, fecha_realizacion, modificado_en) VALUES
