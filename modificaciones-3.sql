@@ -893,7 +893,7 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (67, 49, 'Claudia Rojas Escalante', '2025-01-27 10:00:00', 70.00, 'credito', 'correcto');
 -- CITA 50
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (68, 50, 'Claudia Rojas Escalante', '2025-01-29 13:00:00', 90.00, 'transferencia', 'correcto');
---*****HASTA ACA SON PAGOS DE APODERADOS A CLIENTES MENORES*****-------------------------------
+--*****HASTA ACA SON PAGOS DE APODERADOS A CLIENTES MENORES*****-----CONSULTAR A JUAN-----------
 
 
 -- CITA 68
