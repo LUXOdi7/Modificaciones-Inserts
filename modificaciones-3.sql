@@ -770,16 +770,16 @@ INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) V
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (3, 3, 'Andrea Montes Alvarez', '2024-12-29 08:30:00', 60.00, 'credito', 'correcto');
 -- CITA 4*****
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES 
-(4, 4, 'Andrea Montes Alvarez', '2025-01-01 10:30:00', 100.00, 'transferencia', 'correcto'),
-(5, 4, 'Andrea Montes Alvarez', '2025-01-01 10:30:00', 100.00, 'credito', 'correcto');
+(4, 4, 'Andrea Montes Alvarez', '2025-01-01 10:30:00', 50.00, 'transferencia', 'correcto'),
+(5, 4, 'Andrea Montes Alvarez', '2025-01-01 10:30:00', 50.00, 'credito', 'correcto');
 -- CITA 5
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (6, 5, 'Lucia Kumar Folgueras', '2024-12-29 09:00:00', 90.00, 'efectivo', 'correcto');
 -- CITA 6
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (7, 6, 'Lucia Kumar Folgueras', '2024-12-27 10:30:00', 150.00, 'debito', 'correcto');
 -- CITA 7
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES
-(8, 7, 'Lucia Kumar Folgueras', '2024-12-30 14:00:00', 70.00, 'credito', 'correcto'),
-(9, 7, 'Lucia Kumar Folgueras', '2024-12-28 14:00:00', 70.00, 'credito', 'correcto');
+(8, 7, 'Lucia Kumar Folgueras', '2024-12-30 14:00:00', 40.00, 'credito', 'correcto'),
+(9, 7, 'Lucia Kumar Folgueras', '2024-12-28 14:00:00', 40.00, 'credito', 'correcto');
 -- CITA 8
 INSERT INTO Pago (pago_id, cita_id, emisor, fecha_hora, monto, metodo, estado) VALUES (10, 8, 'Lucia Kumar Folgueras', '2024-12-28 09:00:00', 60.00, 'debito', 'correcto');
 -- CITA 9
